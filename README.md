@@ -43,3 +43,4 @@ The gem is available as open source under the terms of the [MIT License](http://
 
 * [vainglory | RubyGems.org | your community gem host](https://rubygems.org/gems/vainglory)
 * [![Build Status](https://travis-ci.org/matthew70/vainglory.svg?branch=master)](https://travis-ci.org/matthew70/vainglory)
+* [![Code Climate](https://codeclimate.com/github/matthew70/vainglory/badges/gpa.svg)](https://codeclimate.com/github/matthew70/vainglory)
