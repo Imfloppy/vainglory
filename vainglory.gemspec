@@ -6,8 +6,8 @@ require 'vainglory/version'
 Gem::Specification.new do |spec|
   spec.name          = "vainglory"
   spec.version       = Vainglory::VERSION
-  spec.authors       = ["matthew70"]
-  spec.email         = ["smatthew7000@gmail.com"]
+  spec.authors       = ["matthew70", "mitsuru793"]
+  spec.email         = ["smatthew7000@gmail.com", "mitsuru793@gmail.ocm]
 
   spec.summary       = %q{Ruby wrapper for the Vainglory}
   spec.description   = %q{Ruby wrapper for the Vainglory}
