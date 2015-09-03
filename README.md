@@ -41,5 +41,5 @@ The gem is available as open source under the terms of the [MIT License](http://
 
 ## Link
 
-[vainglory | RubyGems.org | your community gem host](https://rubygems.org/gems/vainglory)
-[![Build Status](https://travis-ci.org/matthew70/vainglory.svg?branch=master)](https://travis-ci.org/matthew70/vainglory)
+* [vainglory | RubyGems.org | your community gem host](https://rubygems.org/gems/vainglory)
+* [![Build Status](https://travis-ci.org/matthew70/vainglory.svg?branch=master)](https://travis-ci.org/matthew70/vainglory)
