@@ -1,4 +1,4 @@
-module Scrape
+module Vainglory
   class Status
     def initialize
       status = nil

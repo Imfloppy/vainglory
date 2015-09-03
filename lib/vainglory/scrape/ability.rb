@@ -1,4 +1,4 @@
-module Scrape
+module Vainglory
   class Ability
     attr_accessor :name, :effect
 
