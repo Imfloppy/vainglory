@@ -34,8 +34,8 @@ module Vainglory
         status.name = status_div.css("h6").text
 
         status_str = status_div.css("h4").text.strip
-        status.start = get_float_from_match(status_str.match(/\d+(?:.\d+)?/))
-        status.glow = get_float_from_match(status_str.match(/\((\+\d+(?:\.\d+)?)\)/))
+        status.start = match_status_string(status_str, /\d+(?:.\d+)?/)
+        status.glow = match_status_string(status_str, /\((\+\d+(?:\.\d+)?)\)/)
         status_array.push(status)
       end
       @statuses = status_array
@@ -72,19 +72,27 @@ module Vainglory
     end
 
     private
+      def match_status_string(status_string, regex)
+        if status_string.empty? 
+          "Not Written"
+        elsif status_string.match(/N\/A/)
+          Float::NAN
+        else
+          get_float_from_match(status_string.match(regex))
+        end
+      end
+
       # キャプチャを1つ使っていた場合は、キャプチャ部分を数値に変換する
       # キャプチャを使っていない場合は、マッチした部分を数値に変換する
       # キャプチャを2つ以上使うケースはnilを返す
+      # 引数がnilの時はnilを返す
       def get_float_from_match(match_data)
-        # TODO NaNの対応
-        if match_data
-          if match_data[1]
-            match_data[1].to_f
-          else
-            match_data[0].to_f 
-          end
-        else
+        if match_data.nil?
           nil
+        elsif !match_data[1].nil?
+          match_data[1].to_f
+        else
+          match_data[0].to_f 
         end
       end
   end
