@@ -1,11 +1,19 @@
 require 'test_helper'
 
 class VaingloryTest < Minitest::Test
-  def test_that_it_has_a_version_number
+  def test_version
     refute_nil ::Vainglory::VERSION
   end
 
-  def test_it_does_something_useful
-    assert false
+  def test_hero_instance
+    koshka = Vainglory.hero :koshka
+    assert_instance_of Vainglory::Hero, koshka
+  end
+
+  def test_invalid_name
+    e = assert_raises Vainglory::HeroNameError do
+      Vainglory.hero 'aiueo'
+    end
+    assert_match(/Invalid hero name/, e.message)
   end
 end
