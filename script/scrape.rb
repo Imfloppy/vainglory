@@ -3,8 +3,8 @@ require 'open-uri'
 require 'nokogiri'
 require 'yaml'
 
-require 'scrape/status.rb'
-require 'scrape/ability.rb'
+require 'scrape/status'
+require 'scrape/ability'
 
 module Scrape
   class HeroScrapeFromOfficial
