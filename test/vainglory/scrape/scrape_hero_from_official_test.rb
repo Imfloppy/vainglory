@@ -18,4 +18,15 @@ class ScrapeHeroFromOfficialTest < Minitest::Test
     refute_equal("Not Written", actual)
     refute_equal(Float::NAN, actual)
   end
+
+  def test_float_from_match
+    actual = @scrapeHeroFromOfficial.send(:get_float_from_match, '123'.match('\D'))
+    assert_nil(actual)
+
+    actual = @scrapeHeroFromOfficial.send(:get_float_from_match, '[123]'.match('(\d+)'))
+    assert_equal(123, actual)
+
+    actual = @scrapeHeroFromOfficial.send(:get_float_from_match, '123'.match('\d+'))
+    assert_equal(123, actual)
+  end
 end
