@@ -4,8 +4,6 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 OUTPUT_YML_NAME = "vainglory_heroes.yml"
 OUTPUT_YML_PATH = File.expand_path("../../data/#{OUTPUT_YML_NAME}", __FILE__)
 
-require 'open-uri'
-require 'nokogiri'
 require 'yaml'
 
 require 'vainglory/scrape/scrape_hero_from_official'

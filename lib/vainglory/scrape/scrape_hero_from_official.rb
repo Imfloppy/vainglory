@@ -1,3 +1,6 @@
+require 'open-uri'
+require 'nokogiri'
+
 require 'vainglory/scrape/ability'
 require 'vainglory/scrape/status'
 
