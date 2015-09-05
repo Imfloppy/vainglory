@@ -9,6 +9,9 @@ class StatusTest < Minitest::Test
     assert_equal(2, status.glow)
 
     assert_raises do
+      Vainglory::Status.new
+    end
+    assert_raises do
       Vainglory::Status.new("hp")
     end
     assert_raises do
