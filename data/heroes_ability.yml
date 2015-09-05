@@ -1,0 +1,97 @@
+---
+- :name: Rona
+  :ability:
+  - - :name: Berserkers' Fury
+  - - :name: Into the Fray
+  - - :name: Foesplitter
+  - - :name: Red Mist
+- :name: Fortress
+  :ability:
+  - - :name: Packmates
+  - - :name: Truth of the Tooth
+  - - :name: Law of the Claw
+  - - :name: Attack of the Pack
+- :name: Joule
+  :ability:
+  - - :name: Heavy Plating
+  - - :name: Rocket Leap
+  - - :name: Thunder Strike
+  - - :name: Big Red Button
+- :name: Ardan
+  :ability:
+  - - :name: Julia's Gift
+  - - :name: Vanguard
+  - - :name: Blood for Blood
+  - - :name: Gauntlet
+- :name: Skaarf
+  :ability:
+  - - :name: Fan the Flames
+  - - :name: Spitfire
+  - - :name: Goop
+  - - :name: Dragon Breath
+- :name: Taka
+  :ability:
+  - - :name: House Kamuha
+  - - :name: Kaiten
+  - - :name: Kaku
+  - - :name: X-Retsu
+- :name: Krul
+  :ability:
+  - - :name: Shadows Empower Me
+  - - :name: Dead Man's Rush
+  - - :name: Spectral Smite
+  - - :name: From Hell's Heart
+- :name: SAW
+  :ability:
+  - - :name: Spin Up
+  - - :name: Roadie Run
+  - - :name: Suppressing Fire
+  - - :name: Mad Cannon
+- :name: Petal
+  :ability:
+  - - :name: Bramblethorn Munions
+  - - :name: Bramblethorn Seed
+  - - :name: Yay, Pets!
+  - - :name: Spontaneous Combustion
+- :name: Glaive
+  :ability:
+  - - :name: Hunt the Weak
+  - - :name: Afterburn
+  - - :name: Twisted Stroke
+  - - :name: Bloodsong
+- :name: Koshka
+  :ability:
+  - - :name: Bloodrush
+  - - :name: Pouncy Fun
+  - - :name: Twirly Death
+  - - :name: Yummy Catnip Frenzy
+- :name: Adagio
+  :ability:
+  - - :name: Arcane Renewal
+  - - :name: Gift of Fire
+  - - :name: Agent of Wrath
+  - - :name: Verse of Judgement
+- :name: Ringo
+  :ability:
+  - - :name: Double Down
+  - - :name: Achilles Shot
+  - - :name: Twirling Silver
+  - - :name: Hellfire Brew
+- :name: Catherine
+  :ability:
+  - - :name: Captain of the Guard
+  - - :name: Merciless Pursuit
+  - - :name: Stormguard
+  - - :name: Blast Tremor
+- :name: Celeste
+  :ability:
+  - - :name: Julia's Light
+  - - :name: Heliogenesis
+  - - :name: Core Collapse
+  - - :name: Solar Storm
+- :name: Vox
+  :ability:
+  - - :name: Julia's Song
+  - - :name: Sonic Zoom
+  - - :name: Pulse
+  - - :name: Wait for It
