@@ -1,15 +1,16 @@
 module Vainglory
   class Ability
+    def initialize(name, effect)
+      @name = name
+      @effect = effect
+    end
+
     attr_accessor :name, :effect
 
     def to_hash
-      array = []
-      instance_variables.each do |variable|
-        key = variable.to_s.tr('@', '')
-        value = instance_variable_get(variable)
-        array.push({key.to_sym => value})
-      end
-      array
+      hash = Hash.new
+      hash.store(@name.to_sym, @effect)
+      hash
     end
   end
 end
