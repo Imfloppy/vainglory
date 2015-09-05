@@ -3,11 +3,6 @@ require 'vainglory/scrape/status'
 
 class StatusTest < Minitest::Test
   def test_initialize
-    status = Vainglory::Status.new
-    assert_nil(status.name)
-    assert_nil(status.start)
-    assert_nil(status.glow)
-
     status = Vainglory::Status.new("hp", 100, 2)
     assert_equal("hp", status.name)
     assert_equal(100, status.start)

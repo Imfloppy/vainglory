@@ -1,6 +1,6 @@
 module Vainglory
   class Status
-    def initialize(name=nil, start=nil, glow=nil)
+    def initialize(name, start, glow)
       @name = name
       @start = start
       @glow = glow
