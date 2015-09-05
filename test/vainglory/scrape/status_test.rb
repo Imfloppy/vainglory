@@ -7,6 +7,13 @@ class StatusTest < Minitest::Test
     assert_equal("hp", status.name)
     assert_equal(100, status.start)
     assert_equal(2, status.glow)
+
+    assert_raises do
+      Vainglory::Status.new("hp")
+    end
+    assert_raises do
+      Vainglory::Status.new("hp", 100)
+    end
   end
 
   def test_convert_status_name
