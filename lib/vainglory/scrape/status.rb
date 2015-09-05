@@ -1,12 +1,12 @@
 module Vainglory
   class Status
-    def initialize
-      status = nil
-      start = nil
-      glow = nil
+    def initialize(name, start, glow)
+      name = name || nil
+      start = start || nil
+      glow = glow || nil
     end
 
-    attr_accessor :status, :start, :glow
+    attr_accessor :name, :start, :glow
 
     def self.convert_status_name(status_name)
       case status_name
