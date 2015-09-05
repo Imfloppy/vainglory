@@ -40,6 +40,8 @@ class StatusTest < Minitest::Test
     
     actual = Vainglory::Status.convert_status_name("")
     assert_nil(actual)
+    actual = Vainglory::Status.convert_status_name("ほげほげ")
+    assert_equal("ほげほげ", actual)
   end
 
   def test_to_hash

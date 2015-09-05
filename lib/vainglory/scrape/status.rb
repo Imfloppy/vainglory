@@ -30,6 +30,10 @@ module Vainglory
         "attack_range"
       when "Movement Speed" then
         "move_speed"
+      when "" then
+        nil
+      else
+        status_name
       end
     end
 
