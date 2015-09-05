@@ -1,9 +1,9 @@
 module Vainglory
   class Status
-    def initialize(name, start, glow)
-      name = name || nil
-      start = start || nil
-      glow = glow || nil
+    def initialize(name=nil, start=nil, glow=nil)
+      @name = name
+      @start = start
+      @glow = glow
     end
 
     attr_accessor :name, :start, :glow
@@ -46,13 +46,9 @@ module Vainglory
     end
 
     def to_hash
-      array = []
-      instance_variables.each do |variable|
-        key = variable.to_s.tr('@', '')
-        value = instance_variable_get(variable)
-        array.push({key.to_sym => value})
-      end
-      array
+      hash = Hash.new
+      hash.store(@name.to_sym, {start: @start, glow: @glow})
+      hash
     end
   end
 end
