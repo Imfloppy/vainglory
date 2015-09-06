@@ -30,11 +30,11 @@ def main
     celeste: 'celeste/',
     vox: 'vox/'
   }
-  heroes = []
+  heroes = Hash.new
   hero_urls.each do |key, value| 
     hero_url = root_url + 'hero/' + value
     hero = Vainglory::ScrapeHeroFromOfficial.new(hero_url)
-    heroes.push(hero.to_hash)
+    heroes.merge!(hero.to_hash(:status))
   end
   yaml = YAML.dump(heroes)
   File.open(OUTPUT_YML_PATH, 'w') do |file|

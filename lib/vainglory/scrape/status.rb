@@ -1,35 +1,39 @@
 module Vainglory
   class Status
-    def initialize
-      status = nil
-      start = nil
-      glow = nil
+    def initialize(name, start, glow)
+      self.name = name
+      self.start = start
+      self.glow = glow
     end
 
-    attr_accessor :status, :start, :glow
+    attr_accessor :name, :start, :glow
 
     def self.convert_status_name(status_name)
       case status_name
-      when "ヒットポイント(HP)" then
+      when "ヒットポイント(HP)", "Hit Points(HP)"
         "hp"
-      when "HP再生" then
+      when "HP再生", "HP Regen"
         "hp_regen"
-      when "エナジーポイント(EP)" then
+      when "エナジーポイント(EP)", "Energy Points(EP)"
         "ep"
-      when "EP回復" then
+      when "EP回復", "EP Regen"
         "ep_regen"
-      when "武器ダメージ" then
+      when "武器ダメージ", "Weapon Damage"
         "weapon_damage"
-      when "攻撃速度" then
+      when "攻撃速度", "Attack Speed"
         "attack_speed"
-      when "アーマー" then
+      when "アーマー", "Armor"
         "armor"
-      when "シールド" then
+      when "シールド", "Shield"
         "shield"
-      when "攻撃範囲" then
+      when "攻撃範囲", "Attack Range"
         "attack_range"
-      when "Movement Speed" then
+      when "Movement Speed"
         "move_speed"
+      when ""
+        nil
+      else
+        status_name
       end
     end
 
@@ -46,13 +50,9 @@ module Vainglory
     end
 
     def to_hash
-      array = []
-      instance_variables.each do |variable|
-        key = variable.to_s.tr('@', '')
-        value = instance_variable_get(variable)
-        array.push({key.to_sym => value})
-      end
-      array
+      hash = Hash.new
+      hash.store(@name.to_sym, {start: @start, glow: @glow})
+      hash
     end
   end
 end
