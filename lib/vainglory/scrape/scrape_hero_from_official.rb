@@ -54,14 +54,14 @@ module Vainglory
     end
 
     def to_hash(format=nil)
-       status_array = []
+       status_hash = Hash.new
        @statuses.each do |status|
-         status_array.push(status.to_hash)
+         status_hash.merge!(status.to_hash)
        end
 
-       ability_array = []
+       ability_hash = Hash.new
        @abilities.each do |ability|
-         ability_array.push(ability.to_hash)
+         ability_hash.merge!(ability.to_hash)
        end
 
        case format
@@ -69,12 +69,12 @@ module Vainglory
          {
            name: @name,
            excerpt: @excerpt,
-           status: status_array,
-           ability: ability_array
+           status: status_hash,
+           ability: ability_hash
          }
        when :status
          hash = Hash.new
-         hash.store(@name.to_sym, status_array)
+         hash.store(@name.to_sym, status_hash)
          hash
        end
     end
