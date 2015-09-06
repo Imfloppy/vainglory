@@ -3,7 +3,7 @@ require 'vainglory/scrape/status'
 
 class StatusTest < Minitest::Test
   def test_initialize
-    status = Vainglory::Status.new("hp", 100, 2)
+    status = Vainglory::Status.new("ヒットポイント(HP)", 100, 2)
     assert_equal("hp", status.name)
     assert_equal(100, status.start)
     assert_equal(2, status.glow)

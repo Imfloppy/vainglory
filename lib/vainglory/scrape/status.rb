@@ -1,9 +1,9 @@
 module Vainglory
   class Status
     def initialize(name, start, glow)
-      @name = name
-      @start = start
-      @glow = glow
+      self.name = name
+      self.start = start
+      self.glow = glow
     end
 
     attr_accessor :name, :start, :glow
