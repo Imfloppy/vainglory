@@ -6,7 +6,7 @@ class VaingloryTest < Minitest::Test
   end
 
   def test_hero_instance
-    koshka = Vainglory.hero :koshka
+    koshka = Vainglory.hero :コシュカ
     assert_instance_of Vainglory::Hero, koshka
   end
 
