@@ -10,27 +10,27 @@ module Vainglory
 
     def self.convert_status_name(status_name)
       case status_name
-      when "ヒットポイント(HP)" then
+      when "ヒットポイント(HP)", "Hit Points(HP)"
         "hp"
-      when "HP再生" then
+      when "HP再生", "HP Regen"
         "hp_regen"
-      when "エナジーポイント(EP)" then
+      when "エナジーポイント(EP)", "Energy Points(EP)"
         "ep"
-      when "EP回復" then
+      when "EP回復", "EP Regen"
         "ep_regen"
-      when "武器ダメージ" then
+      when "武器ダメージ", "Weapon Damage"
         "weapon_damage"
-      when "攻撃速度" then
+      when "攻撃速度", "Attack Speed"
         "attack_speed"
-      when "アーマー" then
+      when "アーマー", "Armor"
         "armor"
-      when "シールド" then
+      when "シールド", "Shield"
         "shield"
-      when "攻撃範囲" then
+      when "攻撃範囲", "Attack Range"
         "attack_range"
-      when "Movement Speed" then
+      when "Movement Speed"
         "move_speed"
-      when "" then
+      when ""
         nil
       else
         status_name

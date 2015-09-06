@@ -22,22 +22,49 @@ class StatusTest < Minitest::Test
   def test_convert_status_name
     actual = Vainglory::Status.convert_status_name("ヒットポイント(HP)")
     assert_equal("hp", actual)
+    actual = Vainglory::Status.convert_status_name("Hit Points(HP)")
+    assert_equal("hp", actual)
+
     actual = Vainglory::Status.convert_status_name("HP再生")
     assert_equal("hp_regen", actual)
+    actual = Vainglory::Status.convert_status_name("HP Regen")
+    assert_equal("hp_regen", actual)
+
     actual = Vainglory::Status.convert_status_name("エナジーポイント(EP)")
     assert_equal("ep", actual)
+    actual = Vainglory::Status.convert_status_name("Energy Points(EP)")
+    assert_equal("ep", actual)
+
     actual = Vainglory::Status.convert_status_name("EP回復")
     assert_equal("ep_regen", actual)
+    actual = Vainglory::Status.convert_status_name("EP Regen")
+    assert_equal("ep_regen", actual)
+
     actual = Vainglory::Status.convert_status_name("武器ダメージ")
     assert_equal("weapon_damage", actual)
+    actual = Vainglory::Status.convert_status_name("Weapon Damage")
+    assert_equal("weapon_damage", actual)
+
     actual = Vainglory::Status.convert_status_name("攻撃速度")
     assert_equal("attack_speed", actual)
+    actual = Vainglory::Status.convert_status_name("Attack Speed")
+    assert_equal("attack_speed", actual)
+
     actual = Vainglory::Status.convert_status_name("アーマー")
     assert_equal("armor", actual)
+    actual = Vainglory::Status.convert_status_name("Armor")
+    assert_equal("armor", actual)
+
     actual = Vainglory::Status.convert_status_name("シールド")
     assert_equal("shield", actual)
+    actual = Vainglory::Status.convert_status_name("Shield")
+    assert_equal("shield", actual)
+
     actual = Vainglory::Status.convert_status_name("攻撃範囲")
     assert_equal("attack_range", actual)
+    actual = Vainglory::Status.convert_status_name("Attack Range")
+    assert_equal("attack_range", actual)
+
     actual = Vainglory::Status.convert_status_name("Movement Speed")
     assert_equal("move_speed", actual)
     
