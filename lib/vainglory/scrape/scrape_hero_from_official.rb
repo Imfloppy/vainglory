@@ -30,12 +30,12 @@ module Vainglory
       status_array = []
       # h6とh4の子孫要素を持つdivを取得
       @doc.xpath("//div[@id='stats-wrapper']//div[h6 and h4]").each do |status_div|
-        status = Vainglory::Status.new
-        status.name = status_div.css("h6").text
-
+        status_name = status_div.css("h6").text
         status_str = status_div.css("h4").text.strip
-        status.start = get_float_from_match(status_str.match(/\d+(?:.\d+)?/))
-        status.glow = get_float_from_match(status_str.match(/\((\+\d+(?:\.\d+)?)\)/))
+        status_start = get_float_from_match(status_str.match(/\d+(?:.\d+)?/))
+        status_glow = get_float_from_match(status_str.match(/\((\+\d+(?:\.\d+)?)\)/))
+        status = Vainglory::Status.new(status_name, status_start, status_glow)
+
         status_array.push(status)
       end
       @statuses = status_array
@@ -44,15 +44,16 @@ module Vainglory
     def get_ability
       ability_array = []
       @doc.css("div.ability").xpath("./div[@class='text' and p[@class='mb0 md-show']]").each do |ability_div|
-        ability = Vainglory::Ability.new
-        ability.name = ability_div.css("h5.white").text
-        ability.effect = ability_div.css("p.mb0").text 
+        ability_name = ability_div.css("h5.white").text
+        ability_effect = ability_div.css("p.mb0").text 
+        ability = Vainglory::Ability.new(ability_name, ability_effect)
+
         ability_array.push(ability)
       end
       @abilities = ability_array
     end
 
-    def to_hash
+    def to_hash(format=nil)
        status_array = []
        @statuses.each do |status|
          status_array.push(status.to_hash)
@@ -63,12 +64,19 @@ module Vainglory
          ability_array.push(ability.to_hash)
        end
 
-      {
-        name: @name,
-        #excerpt: @excerpt,
-        status: status_array#,
-        #ability: ability_array
-      }
+       case format
+       when nil
+         {
+           name: @name,
+           excerpt: @excerpt,
+           status: status_array,
+           ability: ability_array
+         }
+       when :status
+         hash = Hash.new
+         hash.store(@name.to_sym, status_array)
+         hash
+       end
     end
 
     private
