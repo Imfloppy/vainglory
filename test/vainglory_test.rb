@@ -16,4 +16,12 @@ class VaingloryTest < Minitest::Test
     end
     assert_match(/Invalid hero name/, e.message)
   end
+
+  def test_set_level
+    koshka = Vainglory.hero :コシュカ
+    assert_equal koshka.level, 1
+    koshka.set_level(12)
+    assert_equal koshka.level, 12
+    assert_equal koshka.hp, 1498
+  end
 end
