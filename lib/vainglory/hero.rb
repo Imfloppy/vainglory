@@ -1,7 +1,7 @@
 module Vainglory
   class Hero
     attr_reader :name, :level, :hp
-    def initialize(name, options = nil)
+    def initialize(name, options = {})
       @name = name
       options.each do |key, value|
         value.each do |k, v|
