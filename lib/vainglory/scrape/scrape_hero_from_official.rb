@@ -45,7 +45,7 @@ module Vainglory
       ability_array = []
       @doc.css("div.ability").xpath("./div[@class='text' and p[@class='mb0 md-show']]").each do |ability_div|
         ability_name = ability_div.css("h5.white").text
-        ability_effect = ability_div.css("p.mb0").text 
+        ability_effect = ability_div.css("p.mb0").text
         ability = Vainglory::Ability.new(ability_name, ability_effect)
 
         ability_array.push(ability)
@@ -89,7 +89,7 @@ module Vainglory
           if match_data[1]
             match_data[1].to_f
           else
-            match_data[0].to_f 
+            match_data[0].to_f
           end
         else
           nil
