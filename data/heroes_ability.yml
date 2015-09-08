@@ -3,11 +3,12 @@
   :Berserkers' Fury:
   :Into the Fray:
     :cool_down:
-      - 22
-      - 20
-      - 18
-      - 16
-      - 14
+      :effect:
+        - 22
+        - 20
+        - 18
+        - 16
+        - 14
     :damage_reduction:
       :effect:
         - 8%
@@ -35,11 +36,12 @@
         - 200%
   :Foesplitter:
     :cool_down:
-      - 16
-      - 15
-      - 14
-      - 13
-      - 12
+      :effect:
+        - 16
+        - 15
+        - 14
+        - 13
+        - 12
     :bloodrage_gain:
       :effect:
         - 5
@@ -70,16 +72,18 @@
       :weapon:
         - 100%
     :duration:
-      - 2
-      - 2.5
-      - 3
-      - 3.5
-      - 4
+      :effect:
+        - 2
+        - 2.5
+        - 3
+        - 3.5
+        - 4
   :Red Mist:
     :cool_down:
-      - 4
-      - 4
-      - 4
+      :effect:
+        - 4
+        - 4
+        - 4
     :bloodrage_per_second:
       :effect:
         - 35
@@ -103,17 +107,19 @@
   :Packmates:
   :Truth of the Tooth:
     :cool_down:
-      - 13
-      - 12
-      - 11
-      - 10
-      - 8
+      :effect:
+        - 13
+        - 12
+        - 11
+        - 10
+        - 8
     :ep:
-      - 35
-      - 45
-      - 55
-      - 65
-      - 75
+      :effect:
+        - 35
+        - 45
+        - 55
+        - 65
+        - 75
     :damage:
       :effect:
         - 100
@@ -131,24 +137,27 @@
         - 2
         - 2.5
     :duration:
-      - 2
-      - 2
-      - 2
-      - 2
-      - 3
+      :effect:
+        - 2
+        - 2
+        - 2
+        - 2
+        - 3
   :Law of the Claw:
     :cool_down:
-      - 11
-      - 10
-      - 9
-      - 8
-      - 6
+      :effect:
+        - 11
+        - 10
+        - 9
+        - 8
+        - 6
     :ep:
-      - 30
-      - 40
-      - 50
-      - 60
-      - 70
+      :effect:
+        - 30
+        - 40
+        - 50
+        - 60
+        - 70
     :damage:
       :effect:
         - 90
@@ -169,29 +178,35 @@
         - 6%
   :Attack of the Pack:
     :cool_down:
-      - 120
-      - 95
-      - 70
+      :effect:
+        - 120
+        - 95
+        - 70
     :ep:
-      - 120
-      - 140
-      - 160
+      :effect:
+        - 120
+        - 140
+        - 160
     :duration:
-      - 15
-      - 15
-      - 15
+      :effect:
+        - 15
+        - 15
+        - 15
     :attack_speed:
-      - 30%
-      - 50%
-      - 70%
+      :effect:
+        - 30%
+        - 50%
+        - 70%
     :bonus_health:
-      - 250
-      - 550
-      - 850
+      :effect:
+        - 250
+        - 550
+        - 850
     :wolf_attack_damage:
-      - 20
-      - 40
-      - 60
+      :effect:
+        - 20
+        - 40
+        - 60
 :Joule:
   :Heavy Plating:
   :Rocket Leap:
