@@ -951,8 +951,80 @@
 :Koshka:
   :Bloodrush:
   :Pouncy Fun:
+    :cool_down:
+      :effect:
+        - 12
+        - 11.5
+        - 11
+        - 10.5
+        - 10
+    :ep:
+      :effect:
+        - 30
+        - 35
+        - 40
+        - 45
+        - 55
+    :damage:
+      :effect:
+        - 80
+        - 130
+        - 180
+        - 230
+        - 400
+      :crystal:
+        - 80%
   :Twirly Death:
+    :cool_down:
+      :effect:
+        - 13
+        - 12.5
+        - 12
+        - 11.5
+        - 11
+    :ep:
+      :effect:
+        - 36
+        - 44
+        - 52
+        - 60
+        - 78
+    :damage:
+      :effect:
+        - 90
+        - 125
+        - 160
+        - 195
+        - 270
+      :crystal:
+        - 80%
+    :attack_speed:
+      :effect:
+        - 30
+        - 55
+        - 80
+        - 105
+        - 150
+      :crystal:
+        - 110%
   :Yummy Catnip Frenzy:
+    :cool_down:
+      :effect:
+        - 140
+        - 110
+        - 80
+    :ep:
+      :effect:
+        - 120
+        - 150
+        - 180
+    :total_damage:
+      :effect:
+        - 350
+        - 575
+        - 800
+      :crystal:
+        - 120%
 :Adagio:
   :Arcane Renewal:
   :Gift of Fire:
