@@ -54,46 +54,46 @@ module Vainglory
     end
 
     def to_hash(format=nil)
-       status_hash = {}
-       @statuses.each do |status|
-         status_hash.merge!(status.to_hash)
-       end
+      status_hash = {}
+      @statuses.each do |status|
+        status_hash.merge!(status.to_hash)
+      end
 
-       ability_hash = {}
-       @abilities.each do |ability|
-         ability_hash.merge!(ability.to_hash)
-       end
+      ability_hash = {}
+      @abilities.each do |ability|
+        ability_hash.merge!(ability.to_hash)
+      end
 
-       case format
-       when nil
-         {
-           name: @name,
-           excerpt: @excerpt,
-           status: status_hash,
-           ability: ability_hash
-         }
-       when :status
-         hash = {}
-         hash.store(@name.to_sym, status_hash)
-         hash
-       end
+      case format
+      when nil
+        {
+          name: @name,
+          excerpt: @excerpt,
+          status: status_hash,
+          ability: ability_hash
+        }
+      when :status
+        hash = {}
+        hash.store(@name.to_sym, status_hash)
+        hash
+      end
     end
 
     private
-      # キャプチャを1つ使っていた場合は、キャプチャ部分を数値に変換する
-      # キャプチャを使っていない場合は、マッチした部分を数値に変換する
-      # キャプチャを2つ以上使うケースはnilを返す
-      def get_float_from_match(match_data)
-        # TODO NaNの対応
-        if match_data
-          if match_data[1]
-            match_data[1].to_f
-          else
-            match_data[0].to_f
-          end
+    # キャプチャを1つ使っていた場合は、キャプチャ部分を数値に変換する
+    # キャプチャを使っていない場合は、マッチした部分を数値に変換する
+    # キャプチャを2つ以上使うケースはnilを返す
+    def get_float_from_match(match_data)
+      # TODO NaNの対応
+      if match_data
+        if match_data[1]
+          match_data[1].to_f
         else
-          nil
+          match_data[0].to_f
         end
+      else
+        nil
       end
+    end
   end
 end
