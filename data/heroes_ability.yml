@@ -9,7 +9,7 @@
         - 6
         - 6
         - 6
-    :ep:
+    :energy_cost:
       :effect:
         - 60
         - 70
@@ -46,7 +46,7 @@
         - 14
         - 12
         - 8
-    :ep:
+    :energy_cost:
       :effect:
         - 70
         - 70
@@ -75,7 +75,7 @@
         - 70
         - 50
         - 30
-    :ep:
+    :energy_cost:
       :effect:
         - 70
         - 90
@@ -216,7 +216,7 @@
         - 11
         - 10
         - 8
-    :ep:
+    :energy_cost:
       :effect:
         - 35
         - 45
@@ -254,7 +254,7 @@
         - 9
         - 8
         - 6
-    :ep:
+    :energy_cost:
       :effect:
         - 30
         - 40
@@ -285,7 +285,7 @@
         - 120
         - 95
         - 70
-    :ep:
+    :energy_cost:
       :effect:
         - 120
         - 140
@@ -320,7 +320,7 @@
         - 20
         - 19
         - 10
-    :ep:
+    :energy_cost:
       :effect:
         - 100
         - 115
@@ -351,7 +351,7 @@
         - 3.3
         - 3.2
         - 3
-    :ep:
+    :energy_cost:
       :effect:
         - 35
         - 37
@@ -393,7 +393,7 @@
         - 120
         - 105
         - 90
-    :ep:
+    :energy_cost:
       :effect:
         - 100
         - 125
@@ -481,7 +481,7 @@
         - 6
         - 5
         - 3
-    :ep:
+    :energy_cost:
       :effect:
         - 35
         - 35
@@ -512,7 +512,7 @@
         - 10
         - 10
         - 8
-    :ep:
+    :energy_cost:
       :effect:
         - 75
         - 90
@@ -557,7 +557,7 @@
         - 80
         - 75
         - 70
-    :ep:
+    :energy_cost:
       :effect:
         - 125
         - 150
@@ -584,7 +584,7 @@
         - 15
         - 15
         - 15
-    :ep:
+    :energy_cost:
       :effect:
         - 55
         - 55
@@ -608,7 +608,7 @@
         - 23
         - 22
         - 21
-    :ep:
+    :energy_cost:
       :effect:
         - 45
         - 57
@@ -635,7 +635,7 @@
         - 20
         - 20
         - 20
-    :ep:
+    :energy_cost:
       :effect:
         - 85
         - 115
@@ -664,7 +664,7 @@
         - 10
         - 9
         - 8
-    :ep:
+    :energy_cost:
       :effect:
         - 45
         - 50
@@ -699,7 +699,7 @@
         - 12
         - 11.5
         - 11
-    :ep:
+    :energy_cost:
       :effect:
         - 45
         - 50
@@ -752,7 +752,7 @@
         - 80
         - 65
         - 50
-    :ep:
+    :energy_cost:
       :effect:
         - 55
         - 70
@@ -784,7 +784,7 @@
         - 13
         - 12
         - 11
-    :ep:
+    :energy_cost:
       :effect:
         - 65
         - 65
@@ -824,7 +824,7 @@
         - 15
         - 15
         - 15
-    :ep:
+    :energy_cost:
      :effect:
       - 40
       - 50
@@ -853,7 +853,7 @@
         - 100
         - 80
         - 60
-    :ep:
+    :energy_cost:
       :effect:
         - 60
         - 75
@@ -885,7 +885,7 @@
         - 3
         - 2.5
         - 2
-    :ep:
+    :energy_cost:
       :effect:
         - 55
         - 60
@@ -916,7 +916,7 @@
         - 6
         - 5
         - 4
-    :ep:
+    :energy_cost:
       :effect:
         - 25
         - 30
@@ -945,7 +945,7 @@
         - 96
         - 91
         - 86
-    :ep:
+    :energy_cost:
       :effect:
         - 70
         - 90
@@ -967,7 +967,7 @@
         - 23
         - 22
         - 12
-    :ep:
+    :energy_cost:
       :effect:
         - 120
         - 120
@@ -991,7 +991,7 @@
         - 10
         - 9
         - 8
-    :ep:
+    :energy_cost:
       :effect:
         - 50
         - 58
@@ -1027,7 +1027,7 @@
         - 16
         - 16
         - 16
-    :ep:
+    :energy_cost:
       :effect:
         - 40
         - 50
@@ -1061,7 +1061,7 @@
         - 11
         - 10.5
         - 10
-    :ep:
+    :energy_cost:
       :effect:
         - 30
         - 35
@@ -1085,7 +1085,7 @@
         - 12
         - 11.5
         - 11
-    :ep:
+    :energy_cost:
       :effect:
         - 36
         - 44
@@ -1116,7 +1116,7 @@
         - 140
         - 110
         - 80
-    :ep:
+    :energy_cost:
       :effect:
         - 120
         - 150
@@ -1138,7 +1138,7 @@
         - 8
         - 8
         - 8
-    :ep:
+    :energy_cost:
       :effect:
         - 120
         - 132
@@ -1194,7 +1194,7 @@
         - 10
         - 10
         - 10
-    :ep:
+    :energy_cost:
       :effect:
         - 105
         - 130
@@ -1216,7 +1216,7 @@
         - 110
         - 90
         - 70
-    :ep:
+    :energy_cost:
       :effect:
         - 140
         - 190
@@ -1243,7 +1243,7 @@
         - 8
         - 7.5
         - 7
-    :ep:
+    :energy_cost:
       :effect:
         - 32
         - 50
@@ -1281,7 +1281,7 @@
         - 10
         - 10
         - 10
-    :ep:
+    :energy_cost:
       :effect:
         - 30
         - 38
@@ -1317,7 +1317,7 @@
         - 110
         - 100
         - 90
-    :ep:
+    :energy_cost:
       :effect:
         - 100
         - 115
@@ -1346,7 +1346,7 @@
         - 13
         - 13
         - 13
-    :ep:
+    :energy_cost:
       :effect:
         - 40
         - 50
@@ -1377,7 +1377,7 @@
         - 6
         - 5
         - 4
-    :ep:
+    :energy_cost:
       :effect:
         - 40
         - 50
@@ -1406,7 +1406,7 @@
         - 105
         - 85
         - 65
-    :ep:
+    :energy_cost:
       :effect:
         - 95
         - 135
@@ -1438,7 +1438,7 @@
         - 2
         - 1.5
         - 1
-    :ep:
+    :energy_cost:
       :effect:
         - 50
         - 50
@@ -1487,7 +1487,7 @@
         - 20
         - 18
         - 10
-    :ep:
+    :energy_cost:
       :effect:
         - 100
         - 100
@@ -1516,7 +1516,7 @@
         - 100
         - 85
         - 70
-    :ep:
+    :energy_cost:
       :effect:
         - 100
         - 120
@@ -1550,7 +1550,7 @@
         - 4
         - 3.5
         - 3
-    :ep:
+    :energy_cost:
       :effect:
         - 40
         - 40
@@ -1572,7 +1572,7 @@
         - 12
         - 12
         - 8
-    :ep:
+    :energy_cost:
       :effect:
         - 40
         - 50
@@ -1606,7 +1606,7 @@
         - 80
         - 55
         - 30
-    :ep:
+    :energy_cost:
       :effect:
         - 80
         - 80
