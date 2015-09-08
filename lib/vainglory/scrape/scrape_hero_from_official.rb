@@ -23,15 +23,15 @@ module Vainglory
     end
 
     def get_excerpt
-      @excerpt = @doc.css("p.excerpt").text
+      @excerpt = @doc.css('p.excerpt').text
     end
 
     def get_status
       status_array = []
       # h6とh4の子孫要素を持つdivを取得
       @doc.xpath("//div[@id='stats-wrapper']//div[h6 and h4]").each do |status_div|
-        status_name = status_div.css("h6").text
-        status_str = status_div.css("h4").text.strip
+        status_name = status_div.css('h6').text
+        status_str = status_div.css('h4').text.strip
         status_start = get_float_from_match(status_str.match(/\d+(?:.\d+)?/))
         status_glow = get_float_from_match(status_str.match(/\((\+\d+(?:\.\d+)?)\)/))
         status = Vainglory::Status.new(status_name, status_start, status_glow)
@@ -43,9 +43,9 @@ module Vainglory
 
     def get_ability
       ability_array = []
-      @doc.css("div.ability").xpath("./div[@class='text' and p[@class='mb0 md-show']]").each do |ability_div|
-        ability_name = ability_div.css("h5.white").text
-        ability_effect = ability_div.css("p.mb0").text
+      @doc.css('div.ability').xpath("./div[@class='text' and p[@class='mb0 md-show']]").each do |ability_div|
+        ability_name = ability_div.css('h5.white').text
+        ability_effect = ability_div.css('p.mb0').text
         ability = Vainglory::Ability.new(ability_name, ability_effect)
 
         ability_array.push(ability)
