@@ -1028,8 +1028,108 @@
 :Adagio:
   :Arcane Renewal:
   :Gift of Fire:
+    :cool_down:
+      :effect:
+        - 8
+        - 8
+        - 8
+        - 8
+        - 8
+    :ep:
+      :effect:
+        - 120
+        - 132
+        - 144
+        - 156
+        - 168
+    :heal_per_sec:
+      :effect:
+        - 18
+        - 20
+        - 22
+        - 24
+        - 26
+      :crystal:
+        - 20%
+    :fire_duration:
+      :effect:
+        - 5
+        - 5.5
+        - 6
+        - 6.6
+        - 7
+    :fire_damage:
+      :effect:
+        - 20
+        - 32
+        - 44
+        - 56
+        - 68
+      :crystal:
+        - 18%
+    :heal_duration:
+      :effect:
+        - 3
+        - 3
+        - 3
+        - 3
+        - 3
+    :burst_heal:
+      :effect:
+        - 55
+        - 60
+        - 65
+        - 70
+        - 135
+      :crystal:
+        - 65%
   :Agent of Wrath:
+    :cool_down:
+      :effect:
+        - 10
+        - 10
+        - 10
+        - 10
+        - 10
+    :ep:
+      :effect:
+        - 105
+        - 130
+        - 155
+        - 180
+        - 205
+    :damage:
+      :effect:
+        - 35
+        - 45
+        - 55
+        - 65
+        - 115
+      :crystal:
+        - 85%
   :Verse of Judgement:
+    :cool_down:
+      :effect:
+        - 110
+        - 90
+        - 70
+    :ep:
+      :effect:
+        - 140
+        - 190
+        - 240
+    :damage:
+      :effect:
+        - 430
+        - 670
+        - 910
+      :crystal:
+        - 140%
+    :range:
+      :effect:
+        - 9
+        - 9
+        - 9
 :Ringo:
   :Double Down:
   :Achilles Shot:
