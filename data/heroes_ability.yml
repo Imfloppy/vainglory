@@ -1440,5 +1440,81 @@
 :Vox:
   :Julia's Song:
   :Sonic Zoom:
+    :cool_down:
+      :effect:
+        - 5
+        - 4.5
+        - 4
+        - 3.5
+        - 3
+    :ep:
+      :effect:
+        - 40
+        - 40
+        - 40
+        - 40
+        - 40
+    :weapon_ratio:
+      :effect:
+        - 50%
+        - 55%
+        - 60%
+        - 65%
+        - 75%
   :Pulse:
+    :cool_down:
+      :effect:
+        - 12
+        - 12
+        - 12
+        - 12
+        - 8
+    :ep:
+      :effect:
+        - 40
+        - 50
+        - 60
+        - 70
+        - 80
+    :damage_bonus:
+      :effect:
+        - 75%
+        - 85%
+        - 95%
+        - 105%
+        - 125%
+    :slow_at_center:
+      :effect:
+        - 20%
+        - 22%
+        - 24%
+        - 26%
+        - 30%
+    :slow_at_edge:
+      :effect:
+        - 10%
+        - 12%
+        - 14%
+        - 16%
+        - 20%
   :Wait for It:
+    :cool_down:
+      :effect:
+        - 80
+        - 55
+        - 30
+    :ep:
+      :effect:
+        - 80
+        - 80
+        - 80
+    :shockwave_damage:
+      :effect:
+        - 300
+        - 450
+        - 600
+    :silence_duration:
+      :effect:
+        - 1.5
+        - 1.5
+        - 1.5
