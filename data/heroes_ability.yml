@@ -25,7 +25,7 @@
         - 360
       :crystal_ratio:
         - 240%
-      :weapon:
+      :weapon_ratio:
         - 190%
     :duration:
       :effect:
@@ -161,7 +161,7 @@
         - 70
       :crystal_ratio:
         - 100%
-      :weapon:
+      :weapon_ratio:
         - 100%
     :second_attack_damage:
       :effect:
@@ -172,7 +172,7 @@
         - 105
       :crystal_ratio:
         - 150%
-      :weapon:
+      :weapon_ratio:
         - 100%
     :duration:
       :effect:
@@ -199,7 +199,7 @@
         - 475
       :crystal_ratio:
         - 100%
-      :weapon:
+      :weapon_ratio:
         - 175%
     :armor_shield_gain:
       :effect:
@@ -367,7 +367,7 @@
         - 200
       :crystal_ratio:
         - 135%
-      :weapon:
+      :weapon_ratio:
         - 175%
     :bonus_pierce:
       :effect:
@@ -385,7 +385,7 @@
         - 240
       :crystal_ratio:
         - 80%
-      :weapon:
+      :weapon_ratio:
         - 33%
   :Big Red Button:
     :cool_down:
@@ -680,7 +680,7 @@
         - 530
       :crystal_ratio:
         - 70%
-      :weapon:
+      :weapon_ratio:
         - 100%
     :barrier:
       :effect:
