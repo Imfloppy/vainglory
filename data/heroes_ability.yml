@@ -1328,8 +1328,115 @@
 :Celeste:
   :Julia's Light:
   :Heliogenesis:
+    :cool_down:
+      :effect:
+        - 3
+        - 2.5
+        - 2
+        - 1.5
+        - 1
+    :ep:
+      :effect:
+        - 50
+        - 50
+        - 50
+        - 50
+        - 50
+    :damage:
+      :effect:
+        - 120
+        - 170
+        - 220
+        - 270
+        - 320
+      :crystal:
+        - 125%
+    :nova_damage:
+      :effect:
+        - 150
+        - 200
+        - 250
+        - 300
+        - 350
+      :crystal:
+        - 175%
+    :range:
+      :effect:
+        - 7
+        - 7
+        - 7
+        - 7
+        - 9
+    :damage_minions:
+      :effect:
+        - 120
+        - 150
+        - 180
+        - 210
+        - 240
+      :crystal:
+        - 25%
   :Core Collapse:
+    :cool_down:
+      :effect:
+        - 24
+        - 22
+        - 20
+        - 18
+        - 10
+    :ep:
+      :effect:
+        - 100
+        - 100
+        - 100
+        - 100
+        - 100
+    :damage:
+      :effect:
+        - 100
+        - 175
+        - 250
+        - 325
+        - 475
+      :crystal:
+        - 40%
+    :stun_duration:
+      :effect:
+        - 1
+        - 1
+        - 1
+        - 1
+        - 1.5
   :Solar Storm:
+    :cool_down:
+      :effect:
+        - 100
+        - 85
+        - 70
+    :ep:
+      :effect:
+        - 100
+        - 120
+        - 140
+    :lead_star_damage:
+      :effect:
+        - 300
+        - 350
+        - 400
+      :crystal:
+        - 100%
+    :star_damage:
+      :effect:
+        - 150
+        - 175
+        - 200
+      :crystal:
+        - 20%
+    :stars:
+      :effect:
+        - 3
+        - 5
+        - 7
 :Vox:
   :Julia's Song:
   :Sonic Zoom:
