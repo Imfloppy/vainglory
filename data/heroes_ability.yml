@@ -102,8 +102,96 @@
 :Fortress:
   :Packmates:
   :Truth of the Tooth:
+    :cool_down:
+      - 13
+      - 12
+      - 11
+      - 10
+      - 8
+    :ep:
+      - 35
+      - 45
+      - 55
+      - 65
+      - 75
+    :damage:
+      :effect:
+        - 100
+        - 160
+        - 220
+        - 280
+        - 400
+      :crystal:
+        - 110%
+    :speed_boost:
+      :effect:
+        - 1.7
+        - 1.8
+        - 1.9
+        - 2
+        - 2.5
+    :duration:
+      - 2
+      - 2
+      - 2
+      - 2
+      - 3
   :Law of the Claw:
+    :cool_down:
+      - 11
+      - 10
+      - 9
+      - 8
+      - 6
+    :ep:
+      - 30
+      - 40
+      - 50
+      - 60
+      - 70
+    :damage:
+      :effect:
+        - 90
+        - 140
+        - 190
+        - 240
+        - 340
+      :crystal:
+        - 70%
+    :percent_max_health:
+      :effect:
+        - 12%
+        - 13%
+        - 14%
+        - 15%
+        - 20%
+      :crystal:
+        - 6%
   :Attack of the Pack:
+    :cool_down:
+      - 120
+      - 95
+      - 70
+    :ep:
+      - 120
+      - 140
+      - 160
+    :duration:
+      - 15
+      - 15
+      - 15
+    :attack_speed:
+      - 30%
+      - 50%
+      - 70%
+    :bonus_health:
+      - 250
+      - 550
+      - 850
+    :wolf_attack_damage:
+      - 20
+      - 40
+      - 60
 :Joule:
   :Heavy Plating:
   :Rocket Leap:
