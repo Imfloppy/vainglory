@@ -1133,8 +1133,106 @@
 :Ringo:
   :Double Down:
   :Achilles Shot:
+    :cool_down:
+      :effect:
+        - 9
+        - 8.5
+        - 8
+        - 7.5
+        - 7
+    :ep:
+      :effect:
+        - 32
+        - 50
+        - 68
+        - 86
+        - 104
+    :damage:
+      :effect:
+        - 80
+        - 125
+        - 170
+        - 215
+        - 380
+      :crystal:
+        - 110%
+    :slow_amount:
+      :effect:
+        - 30%
+        - 35%
+        - 40%
+        - 45%
+        - 50%
+    :slow_duration:
+      :effect:
+        - 1.5
+        - 1.75
+        - 2
+        - 2.25
+        - 2.5
   :Twirling Silver:
+    :cool_down:
+      :effect:
+        - 10
+        - 10
+        - 10
+        - 10
+        - 10
+    :ep:
+      :effect:
+        - 30
+        - 38
+        - 46
+        - 54
+        - 70
+    :attack_speed:
+      :effect:
+        - 55%
+        - 59%
+        - 63%
+        - 67%
+        - 86%
+    :duration:
+      :effect:
+        - 4
+        - 4.5
+        - 5
+        - 5.5
+        - 6
+    :crystal_damage:
+      :effect:
+        - 0
+        - 0
+        - 0
+        - 0
+        - 0
+      :crystal:
+        - 80%
   :Hellfire Brew:
+    :cool_down:
+      :effect:
+        - 110
+        - 100
+        - 90
+    :ep:
+      :effect:
+        - 100
+        - 115
+        - 130
+    :damage:
+      :effect:
+        - 250
+        - 365
+        - 480
+      :crystal:
+        - 75%
+    :burn_damage:
+      :effect:
+        - 30
+        - 50
+        - 70
+      :crystal:
+        - 20%
 :Catherine:
   :Captain of the Guard:
   :Merciless Pursuit:
