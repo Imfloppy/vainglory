@@ -775,8 +775,85 @@
 :Petal:
   :Bramblethorn Munions:
   :Bramblethorn Seed:
+    :cool_down:
+      :effect:
+        - 4
+        - 3.5
+        - 3
+        - 2.5
+        - 2
+    :ep:
+      :effect:
+        - 55
+        - 60
+        - 65
+        - 70
+        - 75
+    :healing_per_sec:
+      :effect:
+        - 5
+        - 6
+        - 7
+        - 8
+        - 13
+      :crystal:
+        - 3%
+    :defense:
+      :effect:
+        - 10
+        - 14
+        - 18
+        - 22
+        - 26
   :Yay, Pets!:
+    :cool_down:
+      :effect:
+        - 8
+        - 7
+        - 6
+        - 5
+        - 4
+    :ep:
+      :effect:
+        - 25
+        - 30
+        - 35
+        - 40
+        - 65
+    :pet_heal:
+      :effect:
+        - 100
+        - 133
+        - 166
+        - 199
+        - 232
+      :crystal:
+        - 11%
+    :pet_level:
+      :effect:
+        - 1
+        - 2
+        - 3
+        - 4
+        - 6
   :Spontaneous Combustion:
+    :cool_down:
+      :effect:
+        - 96
+        - 91
+        - 86
+    :ep:
+      :effect:
+        - 70
+        - 90
+        - 110
+    :damage:
+      :effect:
+        - 215
+        - 310
+        - 405
+      :crystal:
+        - 80%
 :Glaive:
   :Hunt the Weak:
   :Afterburn:
