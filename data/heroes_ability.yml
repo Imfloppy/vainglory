@@ -371,8 +371,106 @@
 :Skaarf:
   :Fan the Flames:
   :Spitfire:
+    :cool_down:
+      :effect:
+        - 8
+        - 7
+        - 6
+        - 5
+        - 3
+    :ep:
+      :effect:
+        - 35
+        - 35
+        - 35
+        - 35
+        - 35
+    :damage:
+      :effect:
+        - 75
+        - 125
+        - 175
+        - 225
+        - 325
+      :crystal:
+        - 140%
+    :fireball_speed:
+      :effect:
+        - 9
+        - 9.5
+        - 10
+        - 10.5
+        - 11
   :Goop:
+    :cool_down:
+      :effect:
+        - 10
+        - 10
+        - 10
+        - 10
+        - 8
+    :ep:
+      :effect:
+        - 75
+        - 90
+        - 105
+        - 120
+        - 135
+    :ignite_damage:
+      :effect:
+        - 40
+        - 65
+        - 90
+        - 115
+        - 290
+      :crystal:
+        - 65%
+    :damage_per_sec:
+      :effect:
+        - 25
+        - 35
+        - 45
+        - 55
+        - 115
+      :crystal:
+        - 110%
+    :duration:
+      :effect:
+        - 8
+        - 8
+        - 8
+        - 8
+        - 10
+    :duration_on_fire:
+      :effect:
+        - 4
+        - 4
+        - 4
+        - 4
+        - 6
   :Dragon Breath:
+    :cool_down:
+      :effect:
+        - 80
+        - 75
+        - 70
+    :ep:
+      :effect:
+        - 125
+        - 150
+        - 175
+    :total_damage:
+      :effect:
+        - 550
+        - 875
+        - 1200
+      :crystal:
+        - 300%
+    :shield_pierce:
+      :effect:
+        - 15%
+        - 30%
+        - 45%
 :Taka:
   :House Kamuha:
   :Kaiten:
