@@ -33,7 +33,66 @@
       :crystal:
         - 200%
   :Foesplitter:
+    :cool_down:
+      - 16
+      - 15
+      - 14
+      - 13
+      - 12
+    :bloodrage_gain:
+      :effect:
+        - 5
+        - 10
+        - 15
+        - 20
+        - 40
+        - 70
+    :first_attack_damage:
+      :effect:
+        - 10
+        - 20
+        - 30
+        - 40
+        - 70
+      :crystal:
+        - 100%
+      :weapon:
+        - 100%
+    :second_attack_damage:
+      :effect:
+        - 15
+        - 30
+        - 45
+        - 60
+        - 105
+      :crystal:
+        - 150%
+      :weapon:
+        - 100%
   :Red Mist:
+    :cool_down:
+      - 4
+      - 4
+      - 4
+    :bloodrage_per_second:
+      :effect:
+        - 35
+        - 30
+        - 25
+    :damage:
+      :effect:
+        - 225
+        - 350
+        - 475
+      :crystal:
+        - 100%
+      :weapon:
+        - 175%
+    :armor_shield_gain:
+      :effect:
+        - 40
+        - 60
+        - 80
 :Fortress:
   :Packmates:
   :Truth of the Tooth:
