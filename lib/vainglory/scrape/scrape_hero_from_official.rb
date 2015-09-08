@@ -54,12 +54,12 @@ module Vainglory
     end
 
     def to_hash(format=nil)
-       status_hash = Hash.new
+       status_hash = {}
        @statuses.each do |status|
          status_hash.merge!(status.to_hash)
        end
 
-       ability_hash = Hash.new
+       ability_hash = {}
        @abilities.each do |ability|
          ability_hash.merge!(ability.to_hash)
        end
@@ -73,7 +73,7 @@ module Vainglory
            ability: ability_hash
          }
        when :status
-         hash = Hash.new
+         hash = {}
          hash.store(@name.to_sym, status_hash)
          hash
        end
