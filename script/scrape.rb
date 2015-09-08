@@ -11,7 +11,7 @@ require 'yaml'
 require 'vainglory/scrape/scrape_hero_from_official'
 
 def main
-  root_url = 'http://jp.vainglorygame.com/'
+  root_url = 'http://vainglorygame.com/'
   hero_urls = {
     rona: 'rona/',
     fortress: 'fortress/',
@@ -31,7 +31,7 @@ def main
     vox: 'vox/'
   }
   heroes = Hash.new
-  hero_urls.each do |key, value| 
+  hero_urls.each do |key, value|
     hero_url = root_url + 'hero/' + value
     hero = Vainglory::ScrapeHeroFromOfficial.new(hero_url)
     heroes.merge!(hero.to_hash(:status))
