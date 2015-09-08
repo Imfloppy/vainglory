@@ -23,7 +23,7 @@
         - 240
         - 280
         - 360
-      :crystal:
+      :crystal_ratio:
         - 240%
       :weapon:
         - 190%
@@ -36,7 +36,7 @@
         - 2
       :max:
         - 4
-      :crystal:
+      :crystal_ratio:
         - 1%
   :Suri Strike:
     :cool_down:
@@ -60,7 +60,7 @@
         - 360
         - 460
         - 620
-      :crystal:
+      :crystal_ratio:
         - 240%
     :duration_bonus:
       :effect:
@@ -90,7 +90,7 @@
         - 200
         - 300
         - 400
-      :crystal:
+      :crystal_ratio:
         - 150%
     :slow:
       :effect:
@@ -126,7 +126,7 @@
         - 50
         - 65
         - 110
-      :crystal:
+      :crystal_ratio:
         - 100%
     :rupture_damage:
       :effect:
@@ -135,7 +135,7 @@
         - 100
         - 130
         - 220
-      :crystal:
+      :crystal_ratio:
         - 200%
   :Foesplitter:
     :cool_down:
@@ -159,7 +159,7 @@
         - 30
         - 40
         - 70
-      :crystal:
+      :crystal_ratio:
         - 100%
       :weapon:
         - 100%
@@ -170,7 +170,7 @@
         - 45
         - 60
         - 105
-      :crystal:
+      :crystal_ratio:
         - 150%
       :weapon:
         - 100%
@@ -197,7 +197,7 @@
         - 225
         - 350
         - 475
-      :crystal:
+      :crystal_ratio:
         - 100%
       :weapon:
         - 175%
@@ -230,7 +230,7 @@
         - 220
         - 280
         - 400
-      :crystal:
+      :crystal_ratio:
         - 110%
     :speed_boost:
       :effect:
@@ -268,7 +268,7 @@
         - 190
         - 240
         - 340
-      :crystal:
+      :crystal_ratio:
         - 70%
     :percent_max_health:
       :effect:
@@ -277,7 +277,7 @@
         - 14%
         - 15%
         - 20%
-      :crystal:
+      :crystal_ratio:
         - 6%
   :Attack of the Pack:
     :cool_down:
@@ -334,7 +334,7 @@
         - 250
         - 300
         - 350
-      :crystal:
+      :crystal_ratio:
         - 170%
     :stun_duration:
       :effect:
@@ -365,7 +365,7 @@
         - 140
         - 170
         - 200
-      :crystal:
+      :crystal_ratio:
         - 135%
       :weapon:
         - 175%
@@ -383,7 +383,7 @@
         - 160
         - 200
         - 240
-      :crystal:
+      :crystal_ratio:
         - 80%
       :weapon:
         - 33%
@@ -403,7 +403,7 @@
         - 750
         - 1350
         - 1950
-      :crystal:
+      :crystal_ratio:
         - 520%
 :Ardan:
   :Julia's Gift:
@@ -422,7 +422,7 @@
         - 150
         - 200
         - 250
-      :crystal:
+      :crystal_ratio:
         - 120%
     :barrier:
       :effect:
@@ -446,7 +446,7 @@
         - 110
         - 150
         - 190
-      :crystal:
+      :crystal_ratio:
         - 70%
   :Gauntlet:
     :cool_down:
@@ -459,7 +459,7 @@
         - 350
         - 500
         - 650
-      :crystal:
+      :crystal_ratio:
         - 100%
       :stun_duration:
         :effect:
@@ -495,7 +495,7 @@
         - 175
         - 225
         - 325
-      :crystal:
+      :crystal_ratio:
         - 140%
     :fireball_speed:
       :effect:
@@ -526,7 +526,7 @@
         - 90
         - 115
         - 290
-      :crystal:
+      :crystal_ratio:
         - 65%
     :damage_per_sec:
       :effect:
@@ -535,7 +535,7 @@
         - 45
         - 55
         - 115
-      :crystal:
+      :crystal_ratio:
         - 110%
     :duration:
       :effect:
@@ -567,7 +567,7 @@
         - 550
         - 875
         - 1200
-      :crystal:
+      :crystal_ratio:
         - 300%
     :shield_pierce:
       :effect:
@@ -598,7 +598,7 @@
         - 225
         - 300
         - 410
-      :crystal:
+      :crystal_ratio:
         - 120%
   :Kaku:
     :cool_down:
@@ -645,14 +645,14 @@
         - 250
         - 390
         - 530
-      :crystal:
+      :crystal_ratio:
         170%
     :damage_per_sec:
       :effect:
         - 40
         - 52
         - 64
-      :crystal:
+      :crystal_ratio:
         - 70%
 :Krul:
   :Shadows Empower Me:
@@ -678,7 +678,7 @@
         - 250
         - 300
         - 530
-      :crystal:
+      :crystal_ratio:
         - 70%
       :weapon:
         - 100%
@@ -689,7 +689,7 @@
         - 240
         - 320
         - 600
-      :crystal:
+      :crystal_ratio:
         - 75%
   :Spectral Smite:
     :cool_down:
@@ -713,7 +713,7 @@
         - 52
         - 70
         - 110
-      :crystal:
+      :crystal_ratio:
         - 10%
     :lifesteal_per_stack:
       :effect:
@@ -729,7 +729,7 @@
         - 200
         - 250
         - 400
-      :crystal:
+      :crystal_ratio:
     :heal:
       :effect:
         - 36
@@ -744,7 +744,7 @@
         - 22
         - 27
         - 47
-      :crystal:
+      :crystal_ratio:
         - 10%
   :From Hell's Heart:
     :cool_down:
@@ -762,7 +762,7 @@
         - 320
         - 500
         - 650
-      :crystal:
+      :crystal_ratio:
         - 50%
     :slow_duration:
       :effect:
@@ -805,7 +805,7 @@
         - 220
         - 300
         - 380
-      :crystal:
+      :crystal_ratio:
         - 280%
     :speed_boost:
       :effect:
@@ -814,7 +814,7 @@
         - 2.5
         - 2.5
         - 2.5
-      :crystal:
+      :crystal_ratio:
         - 1.5%
   :Suppressing Fire:
     :cool_down:
@@ -845,7 +845,7 @@
       - 490
       - 610
       - 1030
-    :crystal:
+    :crystal_ratio:
       - 400%
   :Mad Cannon:
     :cool_down:
@@ -873,7 +873,7 @@
         - 40
         - 60
         - 80
-      :crystal:
+      :crystal_ratio:
         - 140%
 :Petal:
   :Bramblethorn Munions:
@@ -899,7 +899,7 @@
         - 7
         - 8
         - 13
-      :crystal:
+      :crystal_ratio:
         - 3%
     :defense:
       :effect:
@@ -930,7 +930,7 @@
         - 166
         - 199
         - 232
-      :crystal:
+      :crystal_ratio:
         - 11%
     :pet_level:
       :effect:
@@ -955,7 +955,7 @@
         - 215
         - 310
         - 405
-      :crystal:
+      :crystal_ratio:
         - 80%
 :Glaive:
   :Hunt the Weak:
@@ -981,7 +981,7 @@
         - 240
         - 320
         - 400
-      :crystal:
+      :crystal_ratio:
         - 100%
   :Twisted Stroke:
     :cool_down:
@@ -1019,7 +1019,7 @@
         - 0
         - 0
         - 0
-      :crystal:
+      :crystal_ratio:
         - 120%
   :Bloodsong:
     :cool_down:
@@ -1037,14 +1037,14 @@
         - 225
         - 350
         - 475
-      :crystal:
+      :crystal_ratio:
         - 30%
     :damage_per_stack:
       :effect:
         - 8
         - 14
         - 20
-      :crystal:
+      :crystal_ratio:
         - 1.5%
     :lifesteal_per_stack:
       :effect:
@@ -1075,7 +1075,7 @@
         - 180
         - 230
         - 400
-      :crystal:
+      :crystal_ratio:
         - 80%
   :Twirly Death:
     :cool_down:
@@ -1099,7 +1099,7 @@
         - 160
         - 195
         - 270
-      :crystal:
+      :crystal_ratio:
         - 80%
     :attack_speed:
       :effect:
@@ -1108,7 +1108,7 @@
         - 80
         - 105
         - 150
-      :crystal:
+      :crystal_ratio:
         - 110%
   :Yummy Catnip Frenzy:
     :cool_down:
@@ -1126,7 +1126,7 @@
         - 350
         - 575
         - 800
-      :crystal:
+      :crystal_ratio:
         - 120%
 :Adagio:
   :Arcane Renewal:
@@ -1152,7 +1152,7 @@
         - 22
         - 24
         - 26
-      :crystal:
+      :crystal_ratio:
         - 20%
     :fire_duration:
       :effect:
@@ -1168,7 +1168,7 @@
         - 44
         - 56
         - 68
-      :crystal:
+      :crystal_ratio:
         - 18%
     :heal_duration:
       :effect:
@@ -1184,7 +1184,7 @@
         - 65
         - 70
         - 135
-      :crystal:
+      :crystal_ratio:
         - 65%
   :Agent of Wrath:
     :cool_down:
@@ -1208,7 +1208,7 @@
         - 55
         - 65
         - 115
-      :crystal:
+      :crystal_ratio:
         - 85%
   :Verse of Judgement:
     :cool_down:
@@ -1226,7 +1226,7 @@
         - 430
         - 670
         - 910
-      :crystal:
+      :crystal_ratio:
         - 140%
     :range:
       :effect:
@@ -1257,7 +1257,7 @@
         - 170
         - 215
         - 380
-      :crystal:
+      :crystal_ratio:
         - 110%
     :slow_amount:
       :effect:
@@ -1309,7 +1309,7 @@
         - 0
         - 0
         - 0
-      :crystal:
+      :crystal_ratio:
         - 80%
   :Hellfire Brew:
     :cool_down:
@@ -1327,14 +1327,14 @@
         - 250
         - 365
         - 480
-      :crystal:
+      :crystal_ratio:
         - 75%
     :burn_damage:
       :effect:
         - 30
         - 50
         - 70
-      :crystal:
+      :crystal_ratio:
         - 20%
 :Catherine:
   :Captain of the Guard:
@@ -1360,7 +1360,7 @@
         - 90
         - 130
         - 170
-      :crystal:
+      :crystal_ratio:
         - 100%
     :stun_duration:
       :effect:
@@ -1398,7 +1398,7 @@
         - 39
         - 41
         - 83
-      :crystal:
+      :crystal_ratio:
         - 23%
   :Blast Tremor:
     :cool_down:
@@ -1416,7 +1416,7 @@
         - 370
         - 495
         - 620
-      :crystal:
+      :crystal_ratio:
         - 130%
     :silence_duration:
       :effect:
@@ -1452,7 +1452,7 @@
         - 220
         - 270
         - 320
-      :crystal:
+      :crystal_ratio:
         - 125%
     :nova_damage:
       :effect:
@@ -1461,7 +1461,7 @@
         - 250
         - 300
         - 350
-      :crystal:
+      :crystal_ratio:
         - 175%
     :range:
       :effect:
@@ -1477,7 +1477,7 @@
         - 180
         - 210
         - 240
-      :crystal:
+      :crystal_ratio:
         - 25%
   :Core Collapse:
     :cool_down:
@@ -1501,7 +1501,7 @@
         - 250
         - 325
         - 475
-      :crystal:
+      :crystal_ratio:
         - 40%
     :stun_duration:
       :effect:
@@ -1526,14 +1526,14 @@
         - 300
         - 350
         - 400
-      :crystal:
+      :crystal_ratio:
         - 100%
     :star_damage:
       :effect:
         - 150
         - 175
         - 200
-      :crystal:
+      :crystal_ratio:
         - 20%
     :stars:
       :effect:
