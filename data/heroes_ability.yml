@@ -554,8 +554,123 @@
 :Krul:
   :Shadows Empower Me:
   :Dead Man's Rush:
+    :cool_down:
+      :effect:
+        - 12
+        - 11
+        - 10
+        - 9
+        - 8
+    :ep:
+      :effect:
+        - 45
+        - 50
+        - 55
+        - 60
+        - 65
+    :damage:
+      :effect:
+        - 150
+        - 200
+        - 250
+        - 300
+        - 530
+      :crystal:
+        - 70%
+      :weapon:
+        - 100%
+    :barrier:
+      :effect:
+        - 80
+        - 160
+        - 240
+        - 320
+        - 600
+      :crystal:
+        - 75%
   :Spectral Smite:
+    :cool_down:
+      :effect:
+        - 13
+        - 12.5
+        - 12
+        - 11.5
+        - 11
+    :ep:
+      :effect:
+        - 45
+        - 50
+        - 55
+        - 60
+        - 65
+    :damage_per_stack:
+      :effect:
+        - 16
+        - 34
+        - 52
+        - 70
+        - 110
+      :crystal:
+        - 10%
+    :lifesteal_per_stack:
+      :effect:
+        - 5%
+        - 7%
+        - 9%
+        - 11%
+        - 17%
+    :damage:
+      :effect:
+        - 100
+        - 150
+        - 200
+        - 250
+        - 400
+      :crystal:
+    :heal:
+      :effect:
+        - 36
+        - 48
+        - 60
+        - 72
+        - 164
+    :heal_per_stack:
+      :effect:
+        - 12
+        - 17
+        - 22
+        - 27
+        - 47
+      :crystal:
+        - 10%
   :From Hell's Heart:
+    :cool_down:
+      :effect:
+        - 80
+        - 65
+        - 50
+    :ep:
+      :effect:
+        - 55
+        - 70
+        - 85
+    :damage:
+      :effect:
+        - 320
+        - 500
+        - 650
+      :crystal:
+        - 50%
+    :slow_duration:
+      :effect:
+        - 3
+        - 3.5
+        - 4
+    :stun_duration:
+      :effect:
+        - 2
+        - 2
+        - 2
 :SAW:
   :Spin Up:
   :Roadie Run:
