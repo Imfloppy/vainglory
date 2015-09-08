@@ -210,8 +210,98 @@
 :Joule:
   :Heavy Plating:
   :Rocket Leap:
+    :cool_down:
+      :effect:
+        - 22
+        - 21
+        - 20
+        - 19
+        - 10
+    :ep:
+      :effect:
+        - 100
+        - 115
+        - 130
+        - 145
+        - 160
+    :damage:
+      :effect:
+        - 150
+        - 200
+        - 250
+        - 300
+        - 350
+      :crystal:
+        - 170%
+    :stun_duration:
+      :effect:
+        - 1.1
+        - 1.2
+        - 1.3
+        - 1.4
+        - 1.5
   :Thunder Strike:
+    :cool_down:
+      :effect:
+        - 3.5
+        - 3.4
+        - 3.3
+        - 3.2
+        - 3
+    :ep:
+      :effect:
+        - 35
+        - 37
+        - 39
+        - 41
+        - 43
+    :damage:
+      :effect:
+        - 80
+        - 110
+        - 140
+        - 170
+        - 200
+      :crystal:
+        - 135%
+      :weapon:
+        - 175%
+    :bonus_pierce:
+      :effect:
+        - 10%
+        - 12%
+        - 14%
+        - 16%
+        - 20%
+    :damage_to_minions:
+      :effect:
+        - 80
+        - 120
+        - 160
+        - 200
+        - 240
+      :crystal:
+        - 80%
+      :weapon:
+        - 33%
   :Big Red Button:
+    :cool_down:
+      :effect:
+        - 120
+        - 105
+        - 90
+    :ep:
+      :effect:
+        - 100
+        - 125
+        - 150
+    :total_damage:
+      :effect:
+        - 750
+        - 1350
+        - 1950
+      :crystal:
+        - 520%
 :Ardan:
   :Julia's Gift:
   :Vanguard:
