@@ -19,6 +19,7 @@
       :effect:
         - 20
         - 35
+        - 50
         - 65
         - 110
       :crystal:
@@ -46,7 +47,6 @@
         - 15
         - 20
         - 40
-        - 70
     :first_attack_damage:
       :effect:
         - 10
@@ -69,6 +69,12 @@
         - 150%
       :weapon:
         - 100%
+    :duration:
+      - 2
+      - 2.5
+      - 3
+      - 3.5
+      - 4
   :Red Mist:
     :cool_down:
       - 4
