@@ -1,97 +1,111 @@
 ---
-- :name: Rona
-  :ability:
-  - - :name: Berserkers' Fury
-  - - :name: Into the Fray
-  - - :name: Foesplitter
-  - - :name: Red Mist
-- :name: Fortress
-  :ability:
-  - - :name: Packmates
-  - - :name: Truth of the Tooth
-  - - :name: Law of the Claw
-  - - :name: Attack of the Pack
-- :name: Joule
-  :ability:
-  - - :name: Heavy Plating
-  - - :name: Rocket Leap
-  - - :name: Thunder Strike
-  - - :name: Big Red Button
-- :name: Ardan
-  :ability:
-  - - :name: Julia's Gift
-  - - :name: Vanguard
-  - - :name: Blood for Blood
-  - - :name: Gauntlet
-- :name: Skaarf
-  :ability:
-  - - :name: Fan the Flames
-  - - :name: Spitfire
-  - - :name: Goop
-  - - :name: Dragon Breath
-- :name: Taka
-  :ability:
-  - - :name: House Kamuha
-  - - :name: Kaiten
-  - - :name: Kaku
-  - - :name: X-Retsu
-- :name: Krul
-  :ability:
-  - - :name: Shadows Empower Me
-  - - :name: Dead Man's Rush
-  - - :name: Spectral Smite
-  - - :name: From Hell's Heart
-- :name: SAW
-  :ability:
-  - - :name: Spin Up
-  - - :name: Roadie Run
-  - - :name: Suppressing Fire
-  - - :name: Mad Cannon
-- :name: Petal
-  :ability:
-  - - :name: Bramblethorn Munions
-  - - :name: Bramblethorn Seed
-  - - :name: Yay, Pets!
-  - - :name: Spontaneous Combustion
-- :name: Glaive
-  :ability:
-  - - :name: Hunt the Weak
-  - - :name: Afterburn
-  - - :name: Twisted Stroke
-  - - :name: Bloodsong
-- :name: Koshka
-  :ability:
-  - - :name: Bloodrush
-  - - :name: Pouncy Fun
-  - - :name: Twirly Death
-  - - :name: Yummy Catnip Frenzy
-- :name: Adagio
-  :ability:
-  - - :name: Arcane Renewal
-  - - :name: Gift of Fire
-  - - :name: Agent of Wrath
-  - - :name: Verse of Judgement
-- :name: Ringo
-  :ability:
-  - - :name: Double Down
-  - - :name: Achilles Shot
-  - - :name: Twirling Silver
-  - - :name: Hellfire Brew
-- :name: Catherine
-  :ability:
-  - - :name: Captain of the Guard
-  - - :name: Merciless Pursuit
-  - - :name: Stormguard
-  - - :name: Blast Tremor
-- :name: Celeste
-  :ability:
-  - - :name: Julia's Light
-  - - :name: Heliogenesis
-  - - :name: Core Collapse
-  - - :name: Solar Storm
-- :name: Vox
-  :ability:
-  - - :name: Julia's Song
-  - - :name: Sonic Zoom
-  - - :name: Pulse
-  - - :name: Wait for It
+:Rona:
+  :Berserkers' Fury:
+  :Into the Fray:
+    :cool_down:
+      - 22
+      - 20
+      - 18
+      - 16
+      - 14
+    :damage_reduction:
+      :effect:
+        - 8%
+        - 10%
+        - 12%
+        - 14%
+        - 20%
+    :impact_damage:
+      :effect:
+        - 20
+        - 35
+        - 65
+        - 110
+      :crystal:
+        - 100%
+    :rupture_damage:
+      :effect:
+        - 40
+        - 70
+        - 100
+        - 130
+        - 220
+      :crystal:
+        - 200%
+  :Foesplitter:
+  :Red Mist:
+:Fortress:
+  :Packmates:
+  :Truth of the Tooth:
+  :Law of the Claw:
+  :Attack of the Pack:
+:Joule:
+  :Heavy Plating:
+  :Rocket Leap:
+  :Thunder Strike:
+  :Big Red Button:
+:Ardan:
+  :Julia's Gift:
+  :Vanguard:
+  :Blood for Blood:
+  :Gauntlet:
+:Skaarf:
+  :Fan the Flames:
+  :Spitfire:
+  :Goop:
+  :Dragon Breath:
+:Taka:
+  :House Kamuha:
+  :Kaiten:
+  :Kaku:
+  :X-Retsu:
+:Krul:
+  :Shadows Empower Me:
+  :Dead Man's Rush:
+  :Spectral Smite:
+  :From Hell's Heart:
+:SAW:
+  :Spin Up:
+  :Roadie Run:
+  :Suppressing Fire:
+  :Mad Cannon:
+:Petal:
+  :Bramblethorn Munions:
+  :Bramblethorn Seed:
+  :Yay, Pets!:
+  :Spontaneous Combustion:
+:Glaive:
+  :Hunt the Weak:
+  :Afterburn:
+  :Twisted Stroke:
+  :Bloodsong:
+:Koshka:
+  :Bloodrush:
+  :Pouncy Fun:
+  :Twirly Death:
+  :Yummy Catnip Frenzy:
+:Adagio:
+  :Arcane Renewal:
+  :Gift of Fire:
+  :Agent of Wrath:
+  :Verse of Judgement:
+:Ringo:
+  :Double Down:
+  :Achilles Shot:
+  :Twirling Silver:
+  :Hellfire Brew:
+:Catherine:
+  :Captain of the Guard:
+  :Merciless Pursuit:
+  :Stormguard:
+  :Blast Tremor:
+:Celeste:
+  :Julia's Light:
+  :Heliogenesis:
+  :Core Collapse:
+  :Solar Storm:
+:Vox:
+  :Julia's Song:
+  :Sonic Zoom:
+  :Pulse:
+  :Wait for It:
