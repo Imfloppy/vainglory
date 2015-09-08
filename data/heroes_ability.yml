@@ -857,8 +857,97 @@
 :Glaive:
   :Hunt the Weak:
   :Afterburn:
+    :cool_down:
+      :effect:
+        - 25
+        - 24
+        - 23
+        - 22
+        - 12
+    :ep:
+      :effect:
+        - 120
+        - 120
+        - 120
+        - 120
+        - 120
+    :damage:
+      :effect:
+        - 80
+        - 160
+        - 240
+        - 320
+        - 400
+      :crystal:
+        - 100%
   :Twisted Stroke:
+    :cool_down:
+      :effect:
+        - 12
+        - 11
+        - 10
+        - 9
+        - 8
+    :ep:
+      :effect:
+        - 50
+        - 58
+        - 66
+        - 74
+        - 82
+    :cleave_damage:
+      :effect:
+        - 30%
+        - 35%
+        - 40%
+        - 45%
+        - 65%
+    :critical_damage:
+      :effect:
+        - 9%
+        - 13%
+        - 17%
+        - 21%
+        - 25%
+    :crystal_damage:
+      :effect:
+        - 0
+        - 0
+        - 0
+        - 0
+        - 0
+      :crystal:
+        - 120%
   :Bloodsong:
+    :cool_down:
+      :effect:
+        - 16
+        - 16
+        - 16
+    :ep:
+      :effect:
+        - 40
+        - 50
+        - 60
+    :base_damage:
+      :effect:
+        - 225
+        - 350
+        - 475
+      :crystal:
+        - 30%
+    :damage_per_stack:
+      :effect:
+        - 8
+        - 14
+        - 20
+      :crystal:
+        - 1.5%
+    :lifesteal_per_stack:
+      :effect:
+        - 1%
+        - 1%
+        - 1%
 :Koshka:
   :Bloodrush:
   :Pouncy Fun:
