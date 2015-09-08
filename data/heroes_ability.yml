@@ -474,8 +474,83 @@
 :Taka:
   :House Kamuha:
   :Kaiten:
+    :cool_down:
+      :effect:
+        - 15
+        - 15
+        - 15
+        - 15
+        - 15
+    :ep:
+      :effect:
+        - 55
+        - 55
+        - 55
+        - 55
+        - 0
+    :damage:
+      :effect:
+        - 75
+        - 150
+        - 225
+        - 300
+        - 410
+      :crystal:
+        - 120%
   :Kaku:
+    :cool_down:
+      :effect:
+        - 25
+        - 24
+        - 23
+        - 22
+        - 21
+    :ep:
+      :effect:
+        - 45
+        - 57
+        - 69
+        - 81
+        - 93
+    :speed_boost:
+      :effect:
+        - 1.25
+        - 1.25
+        - 1.25
+        - 1.25
+        - 1.25
+    :duration:
+      :effect:
+        - 3.5
+        - 3.75
+        - 4
+        - 4.25
+        - 4.5
   :X-Retsu:
+    :cool_down:
+      :effect:
+        - 20
+        - 20
+        - 20
+    :ep:
+      :effect:
+        - 85
+        - 115
+        - 145
+    :damage:
+      :effect:
+        - 250
+        - 390
+        - 530
+      :crystal:
+        170%
+    :damage_per_sec:
+      :effect:
+        - 40
+        - 52
+        - 64
+      :crystal:
+        - 70%
 :Krul:
   :Shadows Empower Me:
   :Dead Man's Rush:
