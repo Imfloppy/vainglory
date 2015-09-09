@@ -775,8 +775,7 @@
         - 2.5
         - 2.5
         - 2.5
-      :crystal_ratio:
-        - 1.5%
+      :crystal_ratio: 1.5%
   :suppressing_fire:
     :cool_down:
       :effect:
@@ -806,8 +805,7 @@
         - 490
         - 610
         - 1030
-      :crystal_ratio:
-        - 400%
+      :crystal_ratio: 400%
   :mad_cannon:
     :cool_down:
       :effect:
