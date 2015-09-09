@@ -1,7 +1,7 @@
 ---
-:Skye:
-  :Target Lock:
-  :Forward Barrage:
+:skye:
+  :target_lock:
+  :forward_barrage:
     :cool_down:
       :effect:
         - 6
@@ -35,7 +35,7 @@
       :max:
         - 4
       :crystal_ratio: 1%
-  :Suri Strike:
+  :suri_strike:
     :cool_down:
       :effect:
         - 18
@@ -65,7 +65,7 @@
         - 2
         - 2.5
         - 4
-  :Death From Above:
+  :death_from_above:
     :cool_down:
       :effect:
         - 70
@@ -97,9 +97,9 @@
         - 2
         - 4
         - 6
-:Rona:
-  :Berserkers' Fury:
-  :Into the Fray:
+:rona:
+  :berserkers'_fury:
+  :into_the_fray:
     :cool_down:
       :effect:
         - 22
@@ -130,7 +130,7 @@
         - 130
         - 220
       :crystal_ratio: 200%
-  :Foesplitter:
+  :foesplitter:
     :cool_down:
       :effect:
         - 16
@@ -170,7 +170,7 @@
         - 3
         - 3.5
         - 4
-  :Red Mist:
+  :red_mist:
     :cool_down:
       :effect:
         - 4
@@ -193,9 +193,9 @@
         - 40
         - 60
         - 80
-:Fortress:
-  :Packmates:
-  :Truth of the Tooth:
+:fortress:
+  :packmates:
+  :truth_of_the_tooth:
     :cool_down:
       :effect:
         - 13
@@ -232,7 +232,7 @@
         - 2
         - 2
         - 3
-  :Law of the Claw:
+  :law_of_the_claw:
     :cool_down:
       :effect:
         - 11
@@ -263,7 +263,7 @@
         - 15%
         - 20%
       :crystal_ratio: 6%
-  :Attack of the Pack:
+  :attack_of_the_pack:
     :cool_down:
       :effect:
         - 120
@@ -294,9 +294,9 @@
         - 20
         - 40
         - 60
-:Joule:
-  :Heavy Plating:
-  :Rocket Leap:
+:joule:
+  :heavy_plating:
+  :rocket_leap:
     :cool_down:
       :effect:
         - 22
@@ -326,7 +326,7 @@
         - 1.3
         - 1.4
         - 1.5
-  :Thunder Strike:
+  :thunder_strike:
     :cool_down:
       :effect:
         - 3.5
@@ -366,7 +366,7 @@
         - 240
       :crystal_ratio: 80%
       :weapon_ratio: 33%
-  :Big Red Button:
+  :big_red_button:
     :cool_down:
       :effect:
         - 120
@@ -383,9 +383,9 @@
         - 1350
         - 1950
       :crystal_ratio: 520%
-:Ardan:
-  :Julia's Gift:
-  :Vanguard:
+:ardan:
+  :julia's_gift:
+  :vanguard:
     :cool_down:
       :effect:
         - 13
@@ -408,7 +408,7 @@
         - 100
         - 140
         - 170
-  :Blood for Blood:
+  :blood_for_blood:
     :cool_down:
       :effect:
         - 20
@@ -424,7 +424,7 @@
         - 150
         - 190
       :crystal_ratio: 70%
-  :Gauntlet:
+  :gauntlet:
     :cool_down:
       :effect:
         - 110
@@ -446,9 +446,9 @@
           - 4
           - 6
           - 8
-:Skaarf:
-  :Fan the Flames:
-  :Spitfire:
+:skaarf:
+  :fan_the_flames:
+  :spitfire:
     :cool_down:
       :effect:
         - 8
@@ -478,7 +478,7 @@
         - 10
         - 10.5
         - 11
-  :Goop:
+  :goop:
     :cool_down:
       :effect:
         - 10
@@ -523,7 +523,7 @@
         - 4
         - 4
         - 6
-  :Dragon Breath:
+  :dragon_breath:
     :cool_down:
       :effect:
         - 80
@@ -545,9 +545,9 @@
         - 15%
         - 30%
         - 45%
-:Taka:
-  :House Kamuha:
-  :Kaiten:
+:taka:
+  :house_kamuha:
+  :kaiten:
     :cool_down:
       :effect:
         - 15
@@ -570,7 +570,7 @@
         - 300
         - 410
       :crystal_ratio: 120%
-  :Kaku:
+  :kaku:
     :cool_down:
       :effect:
         - 25
@@ -599,7 +599,7 @@
         - 4
         - 4.25
         - 4.5
-  :X-Retsu:
+  :x_retsu:
     :cool_down:
       :effect:
         - 20
@@ -623,9 +623,9 @@
         - 52
         - 64
       :crystal_ratio: 70%
-:Krul:
-  :Shadows Empower Me:
-  :Dead Man's Rush:
+:krul:
+  :shadows_empower_me:
+  :dead_man's_rush:
     :cool_down:
       :effect:
         - 12
@@ -657,7 +657,7 @@
         - 320
         - 600
       :crystal_ratio: 75%
-  :Spectral Smite:
+  :spectral_smite:
     :cool_down:
       :effect:
         - 13
@@ -710,7 +710,7 @@
         - 27
         - 47
       :crystal_ratio: 10%
-  :From Hell's Heart:
+  :from_hell's_heart:
     :cool_down:
       :effect:
         - 80
@@ -737,9 +737,9 @@
         - 2
         - 2
         - 2
-:SAW:
-  :Spin Up:
-  :Roadie Run:
+:saw:
+  :spin_up:
+  :roadie_run:
     :cool_down:
       :effect:
         - 15
@@ -778,7 +778,7 @@
         - 2.5
       :crystal_ratio:
         - 1.5%
-  :Suppressing Fire:
+  :suppressing_fire:
     :cool_down:
       :effect:
         - 15
@@ -809,7 +809,7 @@
       - 1030
     :crystal_ratio:
       - 400%
-  :Mad Cannon:
+  :mad_cannon:
     :cool_down:
       :effect:
         - 100
@@ -836,9 +836,9 @@
         - 60
         - 80
       :crystal_ratio: 140%
-:Petal:
-  :Bramblethorn Munions:
-  :Bramblethorn Seed:
+:petal:
+  :bramblethorn_munions:
+  :bramblethorn_seed:
     :cool_down:
       :effect:
         - 4
@@ -868,7 +868,7 @@
         - 18
         - 22
         - 26
-  :Yay, Pets!:
+  :yay_pets:
     :cool_down:
       :effect:
         - 8
@@ -898,7 +898,7 @@
         - 3
         - 4
         - 6
-  :Spontaneous Combustion:
+  :spontaneous_combustion:
     :cool_down:
       :effect:
         - 96
@@ -915,9 +915,9 @@
         - 310
         - 405
       :crystal_ratio: 80%
-:Glaive:
-  :Hunt the Weak:
-  :Afterburn:
+:glaive:
+  :hunt_the_weak:
+  :afterburn:
     :cool_down:
       :effect:
         - 25
@@ -940,7 +940,7 @@
         - 320
         - 400
       :crystal_ratio: 100%
-  :Twisted Stroke:
+  :twisted_stroke:
     :cool_down:
       :effect:
         - 12
@@ -977,7 +977,7 @@
         - 0
         - 0
       :crystal_ratio: 120%
-  :Bloodsong:
+  :bloodsong:
     :cool_down:
       :effect:
         - 16
@@ -1006,9 +1006,9 @@
         - 1%
         - 1%
         - 1%
-:Koshka:
-  :Bloodrush:
-  :Pouncy Fun:
+:koshka:
+  :bloodrush:
+  :pouncy_fun:
     :cool_down:
       :effect:
         - 12
@@ -1031,7 +1031,7 @@
         - 230
         - 400
       :crystal_ratio: 80%
-  :Twirly Death:
+  :twirly_death:
     :cool_down:
       :effect:
         - 13
@@ -1062,7 +1062,7 @@
         - 105
         - 150
       :crystal_ratio: 110%
-  :Yummy Catnip Frenzy:
+  :yummy_catnip_frenzy:
     :cool_down:
       :effect:
         - 140
@@ -1079,9 +1079,9 @@
         - 575
         - 800
       :crystal_ratio: 120%
-:Adagio:
-  :Arcane Renewal:
-  :Gift of Fire:
+:adagio:
+  :arcane_renewal:
+  :gift_of_fire:
     :cool_down:
       :effect:
         - 8
@@ -1134,7 +1134,7 @@
         - 70
         - 135
       :crystal_ratio: 65%
-  :Agent of Wrath:
+  :agent_of_wrath:
     :cool_down:
       :effect:
         - 10
@@ -1157,7 +1157,7 @@
         - 65
         - 115
       :crystal_ratio: 85%
-  :Verse of Judgement:
+  :verse_of_judgement:
     :cool_down:
       :effect:
         - 110
@@ -1179,9 +1179,9 @@
         - 9
         - 9
         - 9
-:Ringo:
-  :Double Down:
-  :Achilles Shot:
+:ringo:
+  :double_down:
+  :achilles_shot:
     :cool_down:
       :effect:
         - 9
@@ -1218,7 +1218,7 @@
         - 2
         - 2.25
         - 2.5
-  :Twirling Silver:
+  :twirling_silver:
     :cool_down:
       :effect:
         - 10
@@ -1255,7 +1255,7 @@
         - 0
         - 0
       :crystal_ratio: 80%
-  :Hellfire Brew:
+  :hellfire_brew:
     :cool_down:
       :effect:
         - 110
@@ -1278,9 +1278,9 @@
         - 50
         - 70
       :crystal_ratio: 20%
-:Catherine:
-  :Captain of the Guard:
-  :Merciless Pursuit:
+:catherine:
+  :captain_of_the_guard:
+  :merciless_pursuit:
     :cool_down:
       :effect:
         - 13
@@ -1310,7 +1310,7 @@
         - 1.05
         - 1.2
         - 1.75
-  :Stormguard:
+  :stormguard:
     :cool_down:
       :effect:
         - 8
@@ -1340,7 +1340,7 @@
         - 41
         - 83
       :crystal_ratio: 23%
-  :Blast Tremor:
+  :blast_tremor:
     :cool_down:
       :effect:
         - 105
@@ -1367,9 +1367,9 @@
         - 11
         - 11
         - 11
-:Celeste:
-  :Julia's Light:
-  :Heliogenesis:
+:celeste:
+  :julia's_light:
+  :heliogenesis:
     :cool_down:
       :effect:
         - 3
@@ -1415,7 +1415,7 @@
         - 210
         - 240
       :crystal_ratio: 25%
-  :Core Collapse:
+  :core_collapse:
     :cool_down:
       :effect:
         - 24
@@ -1445,7 +1445,7 @@
         - 1
         - 1
         - 1.5
-  :Solar Storm:
+  :solar_storm:
     :cool_down:
       :effect:
         - 100
@@ -1473,9 +1473,9 @@
         - 3
         - 5
         - 7
-:Vox:
-  :Julia's Song:
-  :Sonic Zoom:
+:vox:
+  :julia's_song:
+  :sonic_zoom:
     :cool_down:
       :effect:
         - 5
@@ -1497,7 +1497,7 @@
         - 60%
         - 65%
         - 75%
-  :Pulse:
+  :pulse:
     :cool_down:
       :effect:
         - 12
@@ -1533,7 +1533,7 @@
         - 14%
         - 16%
         - 20%
-  :Wait for It:
+  :wait_for_it:
     :cool_down:
       :effect:
         - 80
