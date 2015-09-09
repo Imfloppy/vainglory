@@ -694,7 +694,6 @@
         - 200
         - 250
         - 400
-      :crystal_ratio:
     :heal:
       :effect:
         - 36
