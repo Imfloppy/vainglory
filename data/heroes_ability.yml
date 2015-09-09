@@ -996,8 +996,7 @@
         - 8
         - 14
         - 20
-      :crystal_ratio:
-        - 1.5%
+      :crystal_ratio: 1.5%
     :lifesteal_per_stack:
       :effect:
         - 1%
