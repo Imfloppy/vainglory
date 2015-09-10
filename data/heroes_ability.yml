@@ -1,97 +1,1552 @@
 ---
-- :name: Rona
-  :ability:
-  - - :name: Berserkers' Fury
-  - - :name: Into the Fray
-  - - :name: Foesplitter
-  - - :name: Red Mist
-- :name: Fortress
-  :ability:
-  - - :name: Packmates
-  - - :name: Truth of the Tooth
-  - - :name: Law of the Claw
-  - - :name: Attack of the Pack
-- :name: Joule
-  :ability:
-  - - :name: Heavy Plating
-  - - :name: Rocket Leap
-  - - :name: Thunder Strike
-  - - :name: Big Red Button
-- :name: Ardan
-  :ability:
-  - - :name: Julia's Gift
-  - - :name: Vanguard
-  - - :name: Blood for Blood
-  - - :name: Gauntlet
-- :name: Skaarf
-  :ability:
-  - - :name: Fan the Flames
-  - - :name: Spitfire
-  - - :name: Goop
-  - - :name: Dragon Breath
-- :name: Taka
-  :ability:
-  - - :name: House Kamuha
-  - - :name: Kaiten
-  - - :name: Kaku
-  - - :name: X-Retsu
-- :name: Krul
-  :ability:
-  - - :name: Shadows Empower Me
-  - - :name: Dead Man's Rush
-  - - :name: Spectral Smite
-  - - :name: From Hell's Heart
-- :name: SAW
-  :ability:
-  - - :name: Spin Up
-  - - :name: Roadie Run
-  - - :name: Suppressing Fire
-  - - :name: Mad Cannon
-- :name: Petal
-  :ability:
-  - - :name: Bramblethorn Munions
-  - - :name: Bramblethorn Seed
-  - - :name: Yay, Pets!
-  - - :name: Spontaneous Combustion
-- :name: Glaive
-  :ability:
-  - - :name: Hunt the Weak
-  - - :name: Afterburn
-  - - :name: Twisted Stroke
-  - - :name: Bloodsong
-- :name: Koshka
-  :ability:
-  - - :name: Bloodrush
-  - - :name: Pouncy Fun
-  - - :name: Twirly Death
-  - - :name: Yummy Catnip Frenzy
-- :name: Adagio
-  :ability:
-  - - :name: Arcane Renewal
-  - - :name: Gift of Fire
-  - - :name: Agent of Wrath
-  - - :name: Verse of Judgement
-- :name: Ringo
-  :ability:
-  - - :name: Double Down
-  - - :name: Achilles Shot
-  - - :name: Twirling Silver
-  - - :name: Hellfire Brew
-- :name: Catherine
-  :ability:
-  - - :name: Captain of the Guard
-  - - :name: Merciless Pursuit
-  - - :name: Stormguard
-  - - :name: Blast Tremor
-- :name: Celeste
-  :ability:
-  - - :name: Julia's Light
-  - - :name: Heliogenesis
-  - - :name: Core Collapse
-  - - :name: Solar Storm
-- :name: Vox
-  :ability:
-  - - :name: Julia's Song
-  - - :name: Sonic Zoom
-  - - :name: Pulse
-  - - :name: Wait for It
+:skye:
+  :target_lock:
+  :forward_barrage:
+    :cool_down:
+      :effect:
+        - 6
+        - 6
+        - 6
+        - 6
+        - 6
+    :energy_cost:
+      :effect:
+        - 60
+        - 70
+        - 80
+        - 90
+        - 100
+    :damage_per_sec:
+      :effect:
+        - 160
+        - 200
+        - 240
+        - 280
+        - 360
+      :crystal_ratio: 240%
+      :weapon_ratio: 190%
+    :duration:
+      :effect:
+        - 2
+        - 2
+        - 2
+        - 2
+        - 2
+      :max:
+        - 4
+      :crystal_ratio: 1%
+  :suri_strike:
+    :cool_down:
+      :effect:
+        - 18
+        - 16
+        - 14
+        - 12
+        - 8
+    :energy_cost:
+      :effect:
+        - 70
+        - 70
+        - 70
+        - 70
+        - 70
+    :damage:
+      :effect:
+        - 160
+        - 260
+        - 360
+        - 460
+        - 620
+      :crystal_ratio: 240%
+    :duration_bonus:
+      :effect:
+        - 1
+        - 1.5
+        - 2
+        - 2.5
+        - 4
+  :death_from_above:
+    :cool_down:
+      :effect:
+        - 70
+        - 50
+        - 30
+    :energy_cost:
+      :effect:
+        - 70
+        - 90
+        - 110
+    :duration:
+      :effect:
+        - 2
+        - 3
+        - 4
+    :damage_per_sec:
+      :effect:
+        - 200
+        - 300
+        - 400
+      :crystal_ratio: 150%
+    :slow:
+      :effect:
+        - 55%
+        - 60%
+        - 65%
+    :range_bonus:
+      :effect:
+        - 2
+        - 4
+        - 6
+:rona:
+  :berserkers'_fury:
+  :into_the_fray:
+    :cool_down:
+      :effect:
+        - 22
+        - 20
+        - 18
+        - 16
+        - 14
+    :damage_reduction:
+      :effect:
+        - 8%
+        - 10%
+        - 12%
+        - 14%
+        - 20%
+    :impact_damage:
+      :effect:
+        - 20
+        - 35
+        - 50
+        - 65
+        - 110
+      :crystal_ratio: 100%
+    :rupture_damage:
+      :effect:
+        - 40
+        - 70
+        - 100
+        - 130
+        - 220
+      :crystal_ratio: 200%
+  :foesplitter:
+    :cool_down:
+      :effect:
+        - 16
+        - 15
+        - 14
+        - 13
+        - 12
+    :bloodrage_gain:
+      :effect:
+        - 5
+        - 10
+        - 15
+        - 20
+        - 40
+    :first_attack_damage:
+      :effect:
+        - 10
+        - 20
+        - 30
+        - 40
+        - 70
+      :crystal_ratio: 100%
+      :weapon_ratio: 100%
+    :second_attack_damage:
+      :effect:
+        - 15
+        - 30
+        - 45
+        - 60
+        - 105
+      :crystal_ratio: 150%
+      :weapon_ratio: 100%
+    :duration:
+      :effect:
+        - 2
+        - 2.5
+        - 3
+        - 3.5
+        - 4
+  :red_mist:
+    :cool_down:
+      :effect:
+        - 4
+        - 4
+        - 4
+    :bloodrage_per_second:
+      :effect:
+        - 35
+        - 30
+        - 25
+    :damage:
+      :effect:
+        - 225
+        - 350
+        - 475
+      :crystal_ratio: 100%
+      :weapon_ratio: 175%
+    :armor_shield_gain:
+      :effect:
+        - 40
+        - 60
+        - 80
+:fortress:
+  :packmates:
+  :truth_of_the_tooth:
+    :cool_down:
+      :effect:
+        - 13
+        - 12
+        - 11
+        - 10
+        - 8
+    :energy_cost:
+      :effect:
+        - 35
+        - 45
+        - 55
+        - 65
+        - 75
+    :damage:
+      :effect:
+        - 100
+        - 160
+        - 220
+        - 280
+        - 400
+      :crystal_ratio: 110%
+    :speed_boost:
+      :effect:
+        - 1.7
+        - 1.8
+        - 1.9
+        - 2
+        - 2.5
+    :duration:
+      :effect:
+        - 2
+        - 2
+        - 2
+        - 2
+        - 3
+  :law_of_the_claw:
+    :cool_down:
+      :effect:
+        - 11
+        - 10
+        - 9
+        - 8
+        - 6
+    :energy_cost:
+      :effect:
+        - 30
+        - 40
+        - 50
+        - 60
+        - 70
+    :damage:
+      :effect:
+        - 90
+        - 140
+        - 190
+        - 240
+        - 340
+      :crystal_ratio: 70%
+    :percent_max_health:
+      :effect:
+        - 12%
+        - 13%
+        - 14%
+        - 15%
+        - 20%
+      :crystal_ratio: 6%
+  :attack_of_the_pack:
+    :cool_down:
+      :effect:
+        - 120
+        - 95
+        - 70
+    :energy_cost:
+      :effect:
+        - 120
+        - 140
+        - 160
+    :duration:
+      :effect:
+        - 15
+        - 15
+        - 15
+    :attack_speed:
+      :effect:
+        - 30%
+        - 50%
+        - 70%
+    :bonus_health:
+      :effect:
+        - 250
+        - 550
+        - 850
+    :wolf_attack_damage:
+      :effect:
+        - 20
+        - 40
+        - 60
+:joule:
+  :heavy_plating:
+  :rocket_leap:
+    :cool_down:
+      :effect:
+        - 22
+        - 21
+        - 20
+        - 19
+        - 10
+    :energy_cost:
+      :effect:
+        - 100
+        - 115
+        - 130
+        - 145
+        - 160
+    :damage:
+      :effect:
+        - 150
+        - 200
+        - 250
+        - 300
+        - 350
+      :crystal_ratio: 170%
+    :stun_duration:
+      :effect:
+        - 1.1
+        - 1.2
+        - 1.3
+        - 1.4
+        - 1.5
+  :thunder_strike:
+    :cool_down:
+      :effect:
+        - 3.5
+        - 3.4
+        - 3.3
+        - 3.2
+        - 3
+    :energy_cost:
+      :effect:
+        - 35
+        - 37
+        - 39
+        - 41
+        - 43
+    :damage:
+      :effect:
+        - 80
+        - 110
+        - 140
+        - 170
+        - 200
+      :crystal_ratio: 135%
+      :weapon_ratio: 175%
+    :bonus_pierce:
+      :effect:
+        - 10%
+        - 12%
+        - 14%
+        - 16%
+        - 20%
+    :damage_to_minions:
+      :effect:
+        - 80
+        - 120
+        - 160
+        - 200
+        - 240
+      :crystal_ratio: 80%
+      :weapon_ratio: 33%
+  :big_red_button:
+    :cool_down:
+      :effect:
+        - 120
+        - 105
+        - 90
+    :energy_cost:
+      :effect:
+        - 100
+        - 125
+        - 150
+    :total_damage:
+      :effect:
+        - 750
+        - 1350
+        - 1950
+      :crystal_ratio: 520%
+:ardan:
+  :julia's_gift:
+  :vanguard:
+    :cool_down:
+      :effect:
+        - 13
+        - 13
+        - 13
+        - 13
+        - 13
+    :damage:
+      :effect:
+        - 50
+        - 100
+        - 150
+        - 200
+        - 250
+      :crystal_ratio: 120%
+    :barrier:
+      :effect:
+        - 50
+        - 80
+        - 100
+        - 140
+        - 170
+  :blood_for_blood:
+    :cool_down:
+      :effect:
+        - 20
+        - 20
+        - 20
+        - 20
+        - 20
+    :damage:
+      :effect:
+        - 30
+        - 70
+        - 110
+        - 150
+        - 190
+      :crystal_ratio: 70%
+  :gauntlet:
+    :cool_down:
+      :effect:
+        - 110
+        - 100
+        - 90
+    :damage:
+      :effect:
+        - 350
+        - 500
+        - 650
+      :crystal_ratio: 100%
+      :stun_duration:
+        :effect:
+          - 2
+          - 2
+          - 2
+      :duration:
+        :effect:
+          - 4
+          - 6
+          - 8
+:skaarf:
+  :fan_the_flames:
+  :spitfire:
+    :cool_down:
+      :effect:
+        - 8
+        - 7
+        - 6
+        - 5
+        - 3
+    :energy_cost:
+      :effect:
+        - 35
+        - 35
+        - 35
+        - 35
+        - 35
+    :damage:
+      :effect:
+        - 75
+        - 125
+        - 175
+        - 225
+        - 325
+      :crystal_ratio: 140%
+    :fireball_speed:
+      :effect:
+        - 9
+        - 9.5
+        - 10
+        - 10.5
+        - 11
+  :goop:
+    :cool_down:
+      :effect:
+        - 10
+        - 10
+        - 10
+        - 10
+        - 8
+    :energy_cost:
+      :effect:
+        - 75
+        - 90
+        - 105
+        - 120
+        - 135
+    :ignite_damage:
+      :effect:
+        - 40
+        - 65
+        - 90
+        - 115
+        - 290
+      :crystal_ratio: 65%
+    :damage_per_sec:
+      :effect:
+        - 25
+        - 35
+        - 45
+        - 55
+        - 115
+      :crystal_ratio: 110%
+    :duration:
+      :effect:
+        - 8
+        - 8
+        - 8
+        - 8
+        - 10
+    :duration_on_fire:
+      :effect:
+        - 4
+        - 4
+        - 4
+        - 4
+        - 6
+  :dragon_breath:
+    :cool_down:
+      :effect:
+        - 80
+        - 75
+        - 70
+    :energy_cost:
+      :effect:
+        - 125
+        - 150
+        - 175
+    :total_damage:
+      :effect:
+        - 550
+        - 875
+        - 1200
+      :crystal_ratio: 300%
+    :shield_pierce:
+      :effect:
+        - 15%
+        - 30%
+        - 45%
+:taka:
+  :house_kamuha:
+  :kaiten:
+    :cool_down:
+      :effect:
+        - 15
+        - 15
+        - 15
+        - 15
+        - 15
+    :energy_cost:
+      :effect:
+        - 55
+        - 55
+        - 55
+        - 55
+        - 0
+    :damage:
+      :effect:
+        - 75
+        - 150
+        - 225
+        - 300
+        - 410
+      :crystal_ratio: 120%
+  :kaku:
+    :cool_down:
+      :effect:
+        - 25
+        - 24
+        - 23
+        - 22
+        - 21
+    :energy_cost:
+      :effect:
+        - 45
+        - 57
+        - 69
+        - 81
+        - 93
+    :speed_boost:
+      :effect:
+        - 1.25
+        - 1.25
+        - 1.25
+        - 1.25
+        - 1.25
+    :duration:
+      :effect:
+        - 3.5
+        - 3.75
+        - 4
+        - 4.25
+        - 4.5
+  :x_retsu:
+    :cool_down:
+      :effect:
+        - 20
+        - 20
+        - 20
+    :energy_cost:
+      :effect:
+        - 85
+        - 115
+        - 145
+    :damage:
+      :effect:
+        - 250
+        - 390
+        - 530
+      :crystal_ratio:
+        170%
+    :damage_per_sec:
+      :effect:
+        - 40
+        - 52
+        - 64
+      :crystal_ratio: 70%
+:krul:
+  :shadows_empower_me:
+  :dead_man's_rush:
+    :cool_down:
+      :effect:
+        - 12
+        - 11
+        - 10
+        - 9
+        - 8
+    :energy_cost:
+      :effect:
+        - 45
+        - 50
+        - 55
+        - 60
+        - 65
+    :damage:
+      :effect:
+        - 150
+        - 200
+        - 250
+        - 300
+        - 530
+      :crystal_ratio: 70%
+      :weapon_ratio: 100%
+    :barrier:
+      :effect:
+        - 80
+        - 160
+        - 240
+        - 320
+        - 600
+      :crystal_ratio: 75%
+  :spectral_smite:
+    :cool_down:
+      :effect:
+        - 13
+        - 12.5
+        - 12
+        - 11.5
+        - 11
+    :energy_cost:
+      :effect:
+        - 45
+        - 50
+        - 55
+        - 60
+        - 65
+    :damage_per_stack:
+      :effect:
+        - 16
+        - 34
+        - 52
+        - 70
+        - 110
+      :crystal_ratio: 10%
+    :lifesteal_per_stack:
+      :effect:
+        - 5%
+        - 7%
+        - 9%
+        - 11%
+        - 17%
+    :damage:
+      :effect:
+        - 100
+        - 150
+        - 200
+        - 250
+        - 400
+    :heal:
+      :effect:
+        - 36
+        - 48
+        - 60
+        - 72
+        - 164
+    :heal_per_stack:
+      :effect:
+        - 12
+        - 17
+        - 22
+        - 27
+        - 47
+      :crystal_ratio: 10%
+  :from_hell's_heart:
+    :cool_down:
+      :effect:
+        - 80
+        - 65
+        - 50
+    :energy_cost:
+      :effect:
+        - 55
+        - 70
+        - 85
+    :damage:
+      :effect:
+        - 320
+        - 500
+        - 650
+      :crystal_ratio: 50%
+    :slow_duration:
+      :effect:
+        - 3
+        - 3.5
+        - 4
+    :stun_duration:
+      :effect:
+        - 2
+        - 2
+        - 2
+:saw:
+  :spin_up:
+  :roadie_run:
+    :cool_down:
+      :effect:
+        - 15
+        - 14
+        - 13
+        - 12
+        - 11
+    :energy_cost:
+      :effect:
+        - 65
+        - 65
+        - 65
+        - 65
+        - 80
+    :missing_health:
+      :effect:
+        - 20%
+        - 23%
+        - 25%
+        - 28%
+        - 45%
+    :base_damage:
+      :effect:
+        - 60
+        - 140
+        - 220
+        - 300
+        - 380
+      :crystal_ratio: 280%
+    :speed_boost:
+      :effect:
+        - 2.5
+        - 2.5
+        - 2.5
+        - 2.5
+        - 2.5
+      :crystal_ratio: 1.5%
+  :suppressing_fire:
+    :cool_down:
+      :effect:
+        - 15
+        - 15
+        - 15
+        - 15
+        - 15
+    :energy_cost:
+     :effect:
+      - 40
+      - 50
+      - 60
+      - 70
+      - 100
+    :slow_duration:
+      :effect:
+        - 1
+        - 2
+        - 2
+        - 2
+        - 3
+    :total_damage:
+      :effect:
+        - 250
+        - 370
+        - 490
+        - 610
+        - 1030
+      :crystal_ratio: 400%
+  :mad_cannon:
+    :cool_down:
+      :effect:
+        - 100
+        - 80
+        - 60
+    :energy_cost:
+      :effect:
+        - 60
+        - 75
+        - 90
+    :shells:
+      :effect:
+        - 5
+        - 7
+        - 9
+    :missing_health:
+      :effect:
+        - 15%
+        - 15%
+        - 15%
+    :crystal_damage:
+      :effect:
+        - 40
+        - 60
+        - 80
+      :crystal_ratio: 140%
+:petal:
+  :bramblethorn_munions:
+  :bramblethorn_seed:
+    :cool_down:
+      :effect:
+        - 4
+        - 3.5
+        - 3
+        - 2.5
+        - 2
+    :energy_cost:
+      :effect:
+        - 55
+        - 60
+        - 65
+        - 70
+        - 75
+    :healing_per_sec:
+      :effect:
+        - 5
+        - 6
+        - 7
+        - 8
+        - 13
+      :crystal_ratio: 3%
+    :defense:
+      :effect:
+        - 10
+        - 14
+        - 18
+        - 22
+        - 26
+  :yay_pets:
+    :cool_down:
+      :effect:
+        - 8
+        - 7
+        - 6
+        - 5
+        - 4
+    :energy_cost:
+      :effect:
+        - 25
+        - 30
+        - 35
+        - 40
+        - 65
+    :pet_heal:
+      :effect:
+        - 100
+        - 133
+        - 166
+        - 199
+        - 232
+      :crystal_ratio: 11%
+    :pet_level:
+      :effect:
+        - 1
+        - 2
+        - 3
+        - 4
+        - 6
+  :spontaneous_combustion:
+    :cool_down:
+      :effect:
+        - 96
+        - 91
+        - 86
+    :energy_cost:
+      :effect:
+        - 70
+        - 90
+        - 110
+    :damage:
+      :effect:
+        - 215
+        - 310
+        - 405
+      :crystal_ratio: 80%
+:glaive:
+  :hunt_the_weak:
+  :afterburn:
+    :cool_down:
+      :effect:
+        - 25
+        - 24
+        - 23
+        - 22
+        - 12
+    :energy_cost:
+      :effect:
+        - 120
+        - 120
+        - 120
+        - 120
+        - 120
+    :damage:
+      :effect:
+        - 80
+        - 160
+        - 240
+        - 320
+        - 400
+      :crystal_ratio: 100%
+  :twisted_stroke:
+    :cool_down:
+      :effect:
+        - 12
+        - 11
+        - 10
+        - 9
+        - 8
+    :energy_cost:
+      :effect:
+        - 50
+        - 58
+        - 66
+        - 74
+        - 82
+    :cleave_damage:
+      :effect:
+        - 30%
+        - 35%
+        - 40%
+        - 45%
+        - 65%
+    :critical_damage:
+      :effect:
+        - 9%
+        - 13%
+        - 17%
+        - 21%
+        - 25%
+    :crystal_damage:
+      :effect:
+        - 0
+        - 0
+        - 0
+        - 0
+        - 0
+      :crystal_ratio: 120%
+  :bloodsong:
+    :cool_down:
+      :effect:
+        - 16
+        - 16
+        - 16
+    :energy_cost:
+      :effect:
+        - 40
+        - 50
+        - 60
+    :base_damage:
+      :effect:
+        - 225
+        - 350
+        - 475
+      :crystal_ratio: 30%
+    :damage_per_stack:
+      :effect:
+        - 8
+        - 14
+        - 20
+      :crystal_ratio: 1.5%
+    :lifesteal_per_stack:
+      :effect:
+        - 1%
+        - 1%
+        - 1%
+:koshka:
+  :bloodrush:
+  :pouncy_fun:
+    :cool_down:
+      :effect:
+        - 12
+        - 11.5
+        - 11
+        - 10.5
+        - 10
+    :energy_cost:
+      :effect:
+        - 30
+        - 35
+        - 40
+        - 45
+        - 55
+    :damage:
+      :effect:
+        - 80
+        - 130
+        - 180
+        - 230
+        - 400
+      :crystal_ratio: 80%
+  :twirly_death:
+    :cool_down:
+      :effect:
+        - 13
+        - 12.5
+        - 12
+        - 11.5
+        - 11
+    :energy_cost:
+      :effect:
+        - 36
+        - 44
+        - 52
+        - 60
+        - 78
+    :damage:
+      :effect:
+        - 90
+        - 125
+        - 160
+        - 195
+        - 270
+      :crystal_ratio: 80%
+    :attack_speed:
+      :effect:
+        - 30
+        - 55
+        - 80
+        - 105
+        - 150
+      :crystal_ratio: 110%
+  :yummy_catnip_frenzy:
+    :cool_down:
+      :effect:
+        - 140
+        - 110
+        - 80
+    :energy_cost:
+      :effect:
+        - 120
+        - 150
+        - 180
+    :total_damage:
+      :effect:
+        - 350
+        - 575
+        - 800
+      :crystal_ratio: 120%
+:adagio:
+  :arcane_renewal:
+  :gift_of_fire:
+    :cool_down:
+      :effect:
+        - 8
+        - 8
+        - 8
+        - 8
+        - 8
+    :energy_cost:
+      :effect:
+        - 120
+        - 132
+        - 144
+        - 156
+        - 168
+    :heal_per_sec:
+      :effect:
+        - 18
+        - 20
+        - 22
+        - 24
+        - 26
+      :crystal_ratio: 20%
+    :fire_duration:
+      :effect:
+        - 5
+        - 5.5
+        - 6
+        - 6.6
+        - 7
+    :fire_damage:
+      :effect:
+        - 20
+        - 32
+        - 44
+        - 56
+        - 68
+      :crystal_ratio: 18%
+    :heal_duration:
+      :effect:
+        - 3
+        - 3
+        - 3
+        - 3
+        - 3
+    :burst_heal:
+      :effect:
+        - 55
+        - 60
+        - 65
+        - 70
+        - 135
+      :crystal_ratio: 65%
+  :agent_of_wrath:
+    :cool_down:
+      :effect:
+        - 10
+        - 10
+        - 10
+        - 10
+        - 10
+    :energy_cost:
+      :effect:
+        - 105
+        - 130
+        - 155
+        - 180
+        - 205
+    :damage:
+      :effect:
+        - 35
+        - 45
+        - 55
+        - 65
+        - 115
+      :crystal_ratio: 85%
+  :verse_of_judgement:
+    :cool_down:
+      :effect:
+        - 110
+        - 90
+        - 70
+    :energy_cost:
+      :effect:
+        - 140
+        - 190
+        - 240
+    :damage:
+      :effect:
+        - 430
+        - 670
+        - 910
+      :crystal_ratio: 140%
+    :range:
+      :effect:
+        - 9
+        - 9
+        - 9
+:ringo:
+  :double_down:
+  :achilles_shot:
+    :cool_down:
+      :effect:
+        - 9
+        - 8.5
+        - 8
+        - 7.5
+        - 7
+    :energy_cost:
+      :effect:
+        - 32
+        - 50
+        - 68
+        - 86
+        - 104
+    :damage:
+      :effect:
+        - 80
+        - 125
+        - 170
+        - 215
+        - 380
+      :crystal_ratio: 110%
+    :slow_amount:
+      :effect:
+        - 30%
+        - 35%
+        - 40%
+        - 45%
+        - 50%
+    :slow_duration:
+      :effect:
+        - 1.5
+        - 1.75
+        - 2
+        - 2.25
+        - 2.5
+  :twirling_silver:
+    :cool_down:
+      :effect:
+        - 10
+        - 10
+        - 10
+        - 10
+        - 10
+    :energy_cost:
+      :effect:
+        - 30
+        - 38
+        - 46
+        - 54
+        - 70
+    :attack_speed:
+      :effect:
+        - 55%
+        - 59%
+        - 63%
+        - 67%
+        - 86%
+    :duration:
+      :effect:
+        - 4
+        - 4.5
+        - 5
+        - 5.5
+        - 6
+    :crystal_damage:
+      :effect:
+        - 0
+        - 0
+        - 0
+        - 0
+        - 0
+      :crystal_ratio: 80%
+  :hellfire_brew:
+    :cool_down:
+      :effect:
+        - 110
+        - 100
+        - 90
+    :energy_cost:
+      :effect:
+        - 100
+        - 115
+        - 130
+    :damage:
+      :effect:
+        - 250
+        - 365
+        - 480
+      :crystal_ratio: 75%
+    :burn_damage:
+      :effect:
+        - 30
+        - 50
+        - 70
+      :crystal_ratio: 20%
+:catherine:
+  :captain_of_the_guard:
+  :merciless_pursuit:
+    :cool_down:
+      :effect:
+        - 13
+        - 13
+        - 13
+        - 13
+        - 13
+    :energy_cost:
+      :effect:
+        - 40
+        - 50
+        - 60
+        - 70
+        - 100
+    :bonus_damage:
+      :effect:
+        - 10
+        - 50
+        - 90
+        - 130
+        - 170
+      :crystal_ratio: 100%
+    :stun_duration:
+      :effect:
+        - 0.75
+        - 0.9
+        - 1.05
+        - 1.2
+        - 1.75
+  :stormguard:
+    :cool_down:
+      :effect:
+        - 8
+        - 7
+        - 6
+        - 5
+        - 4
+    :energy_cost:
+      :effect:
+        - 40
+        - 50
+        - 60
+        - 70
+        - 80
+    :duration:
+      :effect:
+        - 6
+        - 6
+        - 6
+        - 6
+        - 6
+    :damage_per_sec:
+      :effect:
+        - 35
+        - 37
+        - 39
+        - 41
+        - 83
+      :crystal_ratio: 23%
+  :blast_tremor:
+    :cool_down:
+      :effect:
+        - 105
+        - 85
+        - 65
+    :energy_cost:
+      :effect:
+        - 95
+        - 135
+        - 175
+    :damage:
+      :effect:
+        - 370
+        - 495
+        - 620
+      :crystal_ratio: 130%
+    :silence_duration:
+      :effect:
+        - 2.5
+        - 3
+        - 3.5
+    :range:
+      :effect:
+        - 11
+        - 11
+        - 11
+:celeste:
+  :julia's_light:
+  :heliogenesis:
+    :cool_down:
+      :effect:
+        - 3
+        - 2.5
+        - 2
+        - 1.5
+        - 1
+    :energy_cost:
+      :effect:
+        - 50
+        - 50
+        - 50
+        - 50
+        - 50
+    :damage:
+      :effect:
+        - 120
+        - 170
+        - 220
+        - 270
+        - 320
+      :crystal_ratio: 125%
+    :nova_damage:
+      :effect:
+        - 150
+        - 200
+        - 250
+        - 300
+        - 350
+      :crystal_ratio: 175%
+    :range:
+      :effect:
+        - 7
+        - 7
+        - 7
+        - 7
+        - 9
+    :damage_minions:
+      :effect:
+        - 120
+        - 150
+        - 180
+        - 210
+        - 240
+      :crystal_ratio: 25%
+  :core_collapse:
+    :cool_down:
+      :effect:
+        - 24
+        - 22
+        - 20
+        - 18
+        - 10
+    :energy_cost:
+      :effect:
+        - 100
+        - 100
+        - 100
+        - 100
+        - 100
+    :damage:
+      :effect:
+        - 100
+        - 175
+        - 250
+        - 325
+        - 475
+      :crystal_ratio: 40%
+    :stun_duration:
+      :effect:
+        - 1
+        - 1
+        - 1
+        - 1
+        - 1.5
+  :solar_storm:
+    :cool_down:
+      :effect:
+        - 100
+        - 85
+        - 70
+    :energy_cost:
+      :effect:
+        - 100
+        - 120
+        - 140
+    :lead_star_damage:
+      :effect:
+        - 300
+        - 350
+        - 400
+      :crystal_ratio: 100%
+    :star_damage:
+      :effect:
+        - 150
+        - 175
+        - 200
+      :crystal_ratio: 20%
+    :stars:
+      :effect:
+        - 3
+        - 5
+        - 7
+:vox:
+  :julia's_song:
+  :sonic_zoom:
+    :cool_down:
+      :effect:
+        - 5
+        - 4.5
+        - 4
+        - 3.5
+        - 3
+    :energy_cost:
+      :effect:
+        - 40
+        - 40
+        - 40
+        - 40
+        - 40
+    :weapon_ratio:
+      :effect:
+        - 50%
+        - 55%
+        - 60%
+        - 65%
+        - 75%
+  :pulse:
+    :cool_down:
+      :effect:
+        - 12
+        - 12
+        - 12
+        - 12
+        - 8
+    :energy_cost:
+      :effect:
+        - 40
+        - 50
+        - 60
+        - 70
+        - 80
+    :damage_bonus:
+      :effect:
+        - 75%
+        - 85%
+        - 95%
+        - 105%
+        - 125%
+    :slow_at_center:
+      :effect:
+        - 20%
+        - 22%
+        - 24%
+        - 26%
+        - 30%
+    :slow_at_edge:
+      :effect:
+        - 10%
+        - 12%
+        - 14%
+        - 16%
+        - 20%
+  :wait_for_it:
+    :cool_down:
+      :effect:
+        - 80
+        - 55
+        - 30
+    :energy_cost:
+      :effect:
+        - 80
+        - 80
+        - 80
+    :shockwave_damage:
+      :effect:
+        - 300
+        - 450
+        - 600
+    :silence_duration:
+      :effect:
+        - 1.5
+        - 1.5
+        - 1.5
