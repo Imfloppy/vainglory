@@ -371,3 +371,43 @@
   :tier: 3
   :gold: 1450
   :cool_down: 20
+:halcyon_potion:
+  :kind:
+    - consumable
+  :gold: 25
+  :cool_down: 25
+:flare_gun:
+  :kind:
+    - consumable
+  :gold: 25
+  :cool_down: 5
+:scout_trap:
+  :kind:
+    - consumable
+  :gold: 50
+  :cool_down: 4
+:minion_candy:
+  :kind:
+    - consumable
+  :gold: 50
+  :cool_down: 1
+:weapon_infusion:
+  :kind:
+    - consumable
+  :gold: 500
+  :cool_down: 1
+:crystal_infusion:
+  :kind:
+    - consumable
+  :gold: 500
+  :cool_down: 1
+:pot_of_gold:
+  :kind:
+    - consumable
+  :gold: 0
+  :cool_down: 1
+:level_juice:
+  :kind:
+    - consumable
+  :gold: 0
+  :cool_down: 1
