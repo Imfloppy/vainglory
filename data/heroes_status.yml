@@ -1,4 +1,35 @@
 ---
+:skye:
+  :hp:
+    :start: 650.0
+    :glow: 83.0
+  :hp_regen:
+    :start: 
+    :glow: 
+  :ep:
+    :start: 380.0
+    :glow: 32.0
+  :ep_regen:
+    :start: 
+    :glow: 
+  :weapon_damage:
+    :start: 63
+    :glow: 5.90909091
+  :attack_speed:
+    :start: 1
+    :glow: 0.01545455
+  :armor:
+    :start: 20
+    :glow: 6
+  :shield:
+    :start: 20
+    :glow: 6
+  :attack_range:
+    :start: 5
+    :glow: 
+  :move_speed:
+    :start: 3.1
+    :glow: 
 :rona:
   :hp:
     :start: 799.0
