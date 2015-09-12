@@ -260,6 +260,7 @@
     - defense
   :tier: 2
   :gold: 700
+  :cool_down: 45
   :to:
     - crucible
     - aegis
@@ -284,16 +285,19 @@
     - defense
   :tier: 3
   :gold: 1850
+  :cool_down: 45
 :fountain_of_renewal:
   :kind:
     - defense
   :tier: 3
   :gold: 2300
+  :cool_down: 60
 :aegis:
   :kind:
     - defense
   :tier: 3
   :gold: 2250
+  :cool_down: 35
 :metal_jacket:
   :kind:
     - defense
@@ -304,3 +308,4 @@
     - defense
   :tier: 3
   :gold: 1900
+  :cool_down: 15
