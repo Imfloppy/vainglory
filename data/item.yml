@@ -1,0 +1,116 @@
+---
+:weapon_blade:
+  :kind:
+    - weapon
+  :tier: 1
+  :gold: 300
+  :to:
+    - heavy_steel
+    - six_sins
+    - piercing_spear
+:book_of_eulogies:
+  :kind:
+    - weapon
+  :tier: 1
+  :gold: 300
+  :to:
+    - barbed_needle
+:swift_shooter:
+  :kind:
+    - weapon
+  :tier: 1
+  :gold: 300
+  :to:
+    - blazing_salvo
+:minion_s_foot:
+  :kind:
+    - weapon
+  :tier: 1
+  :gold: 300
+  :to:
+    - lucky strike
+:heavy_steel:
+  :kind:
+    - weapon
+  :tier: 2
+  :gold: 1150
+  :to:
+    - sorrowblade
+    - serpent_mask
+:six_sins:
+  :kind:
+    - weapon
+  :tier: 2
+  :gold: 650
+  :to:
+    - sorrowblade
+    - tension_bow
+    - tyrant_s_monocle
+:barbed_needle:
+  :kind:
+    - weapon
+  :tier: 2
+  :gold: 800
+  :to:
+    - serpent_mask
+:piercing_spear:
+  :kind:
+    - weapon
+  :tier: 2
+  :glod: 900
+  :to:
+    - tension_bow
+    - bonesaw
+:blazing_salvo:
+  :kind:
+    - weapon
+  :tier: 2
+  :gold: 700
+  :to:
+    - breaking_point
+    - bonesaw
+    - tornado_trigger
+:lucky_strike:
+  :kind:
+    - weapon
+  :tier: 2
+  :gold: 900
+  :to:
+    - breaking_point
+    - tornado_trigger
+    - tyrant_s_monocle
+:sarrowblade:
+  :kind:
+    - weapon
+  :tier: 3
+  :gold: 3100
+:serpent_mask:
+  :kind:
+    - weapon
+  :tier: 3
+  :gold: 2800
+:breaking_point:
+  :kind:
+    - weapon
+  :tier: 3
+  :gold: 2400
+:tension_bow:
+  :kind:
+    - weapon
+  :tier: 3
+  :gold: 2150
+:bonesaw:
+  :kind:
+    - weapon
+  :tier: 3
+  :gold: 2700
+:tornado_trigger:
+  :kind:
+    - weapon
+  :tier: 3
+  :gold: 2600
+:tyrant_s_monocle:
+  :kind:
+    - weapon
+  :tier: 3
+  :gold: 2750
