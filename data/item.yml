@@ -3,7 +3,7 @@
   :kind:
     - weapon
   :tier: 1
-  :gold: 300
+  :buy: 300
   :to:
     - heavy_steel
     - six_sins
@@ -12,7 +12,7 @@
   :kind:
     - weapon
   :tier: 1
-  :gold: 300
+  :buy: 300
   :to:
     - barbed_needle
 :swift_shooter:
@@ -20,21 +20,21 @@
     - weapon
     - ability
   :tier: 1
-  :gold: 300
+  :buy: 300
   :to:
     - blazing_salvo
 :minion_s_foot:
   :kind:
     - weapon
   :tier: 1
-  :gold: 300
+  :buy: 300
   :to:
     - lucky strike
 :heavy_steel:
   :kind:
     - weapon
   :tier: 2
-  :gold: 1150
+  :buy: 1150
   :to:
     - sorrowblade
     - serpent_mask
@@ -42,7 +42,7 @@
   :kind:
     - weapon
   :tier: 2
-  :gold: 650
+  :buy: 650
   :to:
     - sorrowblade
     - tension_bow
@@ -51,7 +51,7 @@
   :kind:
     - weapon
   :tier: 2
-  :gold: 800
+  :buy: 800
   :to:
     - serpent_mask
 :piercing_spear:
@@ -67,7 +67,7 @@
     - weapon
     - ability
   :tier: 2
-  :gold: 700
+  :buy: 700
   :to:
     - breaking_point
     - bonesaw
@@ -77,7 +77,7 @@
   :kind:
     - weapon
   :tier: 2
-  :gold: 900
+  :buy: 900
   :to:
     - breaking_point
     - tornado_trigger
@@ -86,42 +86,42 @@
   :kind:
     - weapon
   :tier: 3
-  :gold: 3100
+  :buy: 3100
 :serpent_mask:
   :kind:
     - weapon
   :tier: 3
-  :gold: 2800
+  :buy: 2800
 :breaking_point:
   :kind:
     - weapon
   :tier: 3
-  :gold: 2400
+  :buy: 2400
 :tension_bow:
   :kind:
     - weapon
   :tier: 3
-  :gold: 2150
+  :buy: 2150
 :bonesaw:
   :kind:
     - weapon
   :tier: 3
-  :gold: 2700
+  :buy: 2700
 :tornado_trigger:
   :kind:
     - weapon
   :tier: 3
-  :gold: 2600
+  :buy: 2600
 :tyrant_s_monocle:
   :kind:
     - weapon
   :tier: 3
-  :gold: 2750
+  :buy: 2750
 :crystal_bit:
   :kind:
     - ability
   :tier: 1
-  :gold: 300
+  :buy: 300
   :to:
     - heavy_prism
     - eclipse_prism
@@ -130,7 +130,7 @@
   :kind:
     - ability
   :tier: 1
-  :gold: 300
+  :buy: 300
   :to:
     - void_battery
 :hourglass:
@@ -138,14 +138,14 @@
     - ability
     - utility
   :tier: 1
-  :gold: 250
+  :buy: 250
   :to:
     - chronograph
 :heavy_prism:
   :kind:
     - ability
   :tier: 2
-  :gold: 1050
+  :buy: 1050
   :to:
     - shatterglass
     - broken_myth
@@ -156,7 +156,7 @@
   :kind:
     - ability
   :tier: 2
-  :gold: 650
+  :buy: 650
   :to:
     - shatterglass
     - frostburn
@@ -165,7 +165,7 @@
   :kind:
     - ability
   :tier: 2
-  :gold: 750
+  :buy: 750
   :to:
     - eve_of_harvest
     - clockwork
@@ -173,7 +173,7 @@
   :kind:
     - ability
   :tier: 2
-  :gold: 900
+  :buy: 900
   :to:
     - broken_myth
 :chronograph:
@@ -181,7 +181,7 @@
     - ability
     - utility
   :tier: 2
-  :gold: 800
+  :buy: 800
   :to:
     - clockwork
     - aftershock
@@ -190,43 +190,43 @@
   :kind:
     - ability
   :tier: 3
-  :gold: 3000
+  :buy: 3000
 :broken_myth:
   :kind:
     - ability
   :tier: 3
-  :gold: 3100
+  :buy: 3100
 :frostburn:
   :kind:
     - ability
   :tier: 3
-  :gold: 2400
+  :buy: 2400
 :eve_of_harvest:
   :kind:
     - ability
   :tier: 3
-  :gold: 2600
+  :buy: 2600
 :clockwork:
   :kind:
     - ability
   :tier: 3
-  :gold: 1950
+  :buy: 1950
 :aftershock:
   :kind:
     - ability
   :tier: 3
-  :gold: 2600
+  :buy: 2600
 :alternating_current:
   :kind:
     - ability
   :tier: 3
-  :gold: 2800
+  :buy: 2800
 :oakheart:
   :kind:
     - defense
     - utility
   :tier: 1
-  :gold: 300
+  :buy: 300
   :to:
     - dragonheart
     - lifespring
@@ -235,14 +235,14 @@
   :kind:
     - defense
   :tier: 1
-  :gold: 250
+  :buy: 250
   :to:
     - kinetic_shield
 :light_armor:
   :kind:
     - defense
   :tier: 1
-  :gold: 250
+  :buy: 250
   :to:
     - coat_of_plates
 :dragonheart:
@@ -250,7 +250,7 @@
     - defense
     - utility
   :tier: 2
-  :gold: 650
+  :buy: 650
   :to:
     - crucible
     - warhorn
@@ -259,14 +259,14 @@
   :kind:
     - defense
   :tier: 2
-  :gold: 800
+  :buy: 800
   :to:
     - fountain_of_renewal
 :reflex_block:
   :kind:
     - defense
   :tier: 2
-  :gold: 700
+  :buy: 700
   :cool_down: 45
   :to:
     - crucible
@@ -275,7 +275,7 @@
   :kind:
     - defense
   :tier: 2
-  :gold: 800
+  :buy: 800
   :to:
     - fountain_of_renewal
     - aegis
@@ -283,7 +283,7 @@
   :kind:
     - defense
   :tier: 2
-  :gold: 800
+  :buy: 800
   :to:
     - metal_jacket
     - atlas_pauldron
@@ -291,36 +291,36 @@
   :kind:
     - defense
   :tier: 3
-  :gold: 1850
+  :buy: 1850
   :cool_down: 45
 :fountain_of_renewal:
   :kind:
     - defense
   :tier: 3
-  :gold: 2300
+  :buy: 2300
   :cool_down: 60
 :aegis:
   :kind:
     - defense
   :tier: 3
-  :gold: 2250
+  :buy: 2250
   :cool_down: 35
 :metal_jacket:
   :kind:
     - defense
   :tier: 3
-  :gold: 2100
+  :buy: 2100
 :atlas_pauldron:
   :kind:
     - defense
   :tier: 3
-  :gold: 1900
+  :buy: 1900
   :cool_down: 15
 :sprint_boots:
   :kind:
     - utility
   :tier: 1
-  :gold: 300
+  :buy: 300
   :cool_down: 150
   :to:
     - travel_boots
@@ -328,14 +328,14 @@
   :kind:
     - utility
   :tier: 1
-  :gold: 300
+  :buy: 300
   :to:
     - stormguard_banner
 :travel_boots:
   :kind:
     - utility
   :tier: 2
-  :gold: 1000
+  :buy: 1000
   :cool_down: 90
   :to:
     - journey_boots
@@ -343,7 +343,7 @@
   :kind:
     - utility
   :tier: 2
-  :gold: 950
+  :buy: 950
   :to:
     - contraption
     - warhorn
@@ -351,63 +351,63 @@
   :kind:
     - utility
   :tier: 3
-  :gold: 1900
+  :buy: 1900
   :cool_down: 50
 :contraption:
   :kind:
     - utility
   :tier: 3
-  :gold: 2500
+  :buy: 2500
   :cool_down: 3
 :warhorn:
   :kind:
     - utility
   :tier: 3
-  :gold: 2500
+  :buy: 2500
   :cool_down: 40
 :shiversteel:
   :kind:
     - utility
   :tier: 3
-  :gold: 1450
+  :buy: 1450
   :cool_down: 20
 :halcyon_potion:
   :kind:
     - consumable
-  :gold: 25
+  :buy: 25
   :cool_down: 25
 :flare_gun:
   :kind:
     - consumable
-  :gold: 25
+  :buy: 25
   :cool_down: 5
 :scout_trap:
   :kind:
     - consumable
-  :gold: 50
+  :buy: 50
   :cool_down: 4
 :minion_candy:
   :kind:
     - consumable
-  :gold: 50
+  :buy: 50
   :cool_down: 1
 :weapon_infusion:
   :kind:
     - consumable
-  :gold: 500
+  :buy: 500
   :cool_down: 1
 :crystal_infusion:
   :kind:
     - consumable
-  :gold: 500
+  :buy: 500
   :cool_down: 1
 :pot_of_gold:
   :kind:
     - consumable
-  :gold: 0
+  :buy: 0
   :cool_down: 1
 :level_juice:
   :kind:
     - consumable
-  :gold: 0
+  :buy: 0
   :cool_down: 1
