@@ -18,6 +18,21 @@ describe 'all key name' do
       value.wont_match(/\s/)
     end
   end
+  it 'has no exclamation mark' do
+    ALL_KEYS.each do |value|
+      value.wont_match(/!/)
+    end
+  end
+  it 'has no question mark' do
+    ALL_KEYS.each do |value|
+      value.wont_match(/\?/)
+    end
+  end
+  it 'has no comma' do
+    ALL_KEYS.each do |value|
+      value.wont_match(/,/)
+    end
+  end
   it 'starts with lower case' do
     ALL_KEYS.each do |value|
       value.must_match(/^[a-z]/)
