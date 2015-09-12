@@ -136,6 +136,7 @@
 :hourglass:
   :kind:
     - ability
+    - utility
   :tier: 1
   :gold: 250
   :to:
@@ -178,11 +179,13 @@
 :chronograph:
   :kind:
     - ability
+    - utility
   :tier: 2
   :gold: 800
   :to:
     - clockwork
     - aftershock
+    - contraption
 :shatterglass:
   :kind:
     - ability
@@ -221,6 +224,7 @@
 :oakheart:
   :kind:
     - defense
+    - utility
   :tier: 1
   :gold: 300
   :to:
@@ -244,10 +248,13 @@
 :dragonheart:
   :kind:
     - defense
+    - utility
   :tier: 2
   :gold: 650
   :to:
     - crucible
+    - warhorn
+    - shiversteel
 :lifespring:
   :kind:
     - defense
@@ -309,3 +316,58 @@
   :tier: 3
   :gold: 1900
   :cool_down: 15
+:sprint_boots:
+  :kind:
+    - utility
+  :tier: 1
+  :gold: 300
+  :cool_down: 150
+  :to:
+    - travel_boots
+:ironguard_contract:
+  :kind:
+    - utility
+  :tier: 1
+  :gold: 300
+  :to:
+    - stormguard_banner
+:travel_boots:
+  :kind:
+    - utility
+  :tier: 2
+  :gold: 1000
+  :cool_down: 90
+  :to:
+    - journey_boots
+:stormguard_banner:
+  :kind:
+    - utility
+  :tier: 2
+  :gold: 950
+  :to:
+    - contraption
+    - warhorn
+:journey_boots:
+  :kind:
+    - utility
+  :tier: 3
+  :gold: 1900
+  :cool_down: 50
+:contraption:
+  :kind:
+    - utility
+  :tier: 3
+  :gold: 2500
+  :cool_down: 3
+:warhorn:
+  :kind:
+    - utility
+  :tier: 3
+  :gold: 2500
+  :cool_down: 40
+:shiversteel:
+  :kind:
+    - utility
+  :tier: 3
+  :gold: 1450
+  :cool_down: 20
