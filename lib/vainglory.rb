@@ -21,6 +21,30 @@ module Vainglory
         heroes[name] = Hero.new(name.to_s, status)
       end
     end
+
+    def status(status_name, level = 12, order = :desc)
+      status_list = []
+      status_name_symbol = status_name.to_sym
+      self.heroes.each_value do |hero|
+        before_level = hero.level
+        hero.level = level
+        status_hash = {}
+        status_hash[:name] = hero.name
+        status_hash[status_name_symbol] = hero.send(status_name)
+        status_list << status_hash
+        hero.level = before_level
+      end
+
+      status_list.sort_by! do |hero|
+        hero[status_name_symbol]
+      end
+      case order
+      when :asc
+        status_list
+      when :desc
+        status_list.reverse
+      end
+    end
   end
 end
 Vainglory.init
