@@ -6,7 +6,7 @@ class VaingloryTest < Minitest::Test
   end
 
   def test_hero_instance
-    koshka = Vainglory.hero :コシュカ
+    koshka = Vainglory.hero :koshka
     assert_instance_of Vainglory::Hero, koshka
   end
 
@@ -18,7 +18,7 @@ class VaingloryTest < Minitest::Test
   end
 
   def test_set_level
-    koshka = Vainglory.hero :コシュカ
+    koshka = Vainglory.hero :koshka
     assert_equal koshka.level, 1
     assert_equal koshka.hp, 761
     assert_equal koshka.attack_range, 1.7

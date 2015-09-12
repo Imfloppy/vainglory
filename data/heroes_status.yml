@@ -1,507 +1,491 @@
 ---
-- :name: "Rona"
-  :status:
-  - - :name: hp
-    - :start: 799.0
-    - :glow: 90.0
-  - - :name: hp_regen
-    - :start: 
-    - :glow: 
-  - - :name: weapon_damage
-    - :start: 88.0
-    - :glow: 6.2
-  - - :name: attack_speed
-    - :start: 1.0
-    - :glow: 0.012
-  - - :name: armor
-    - :start: 20.0
-    - :glow: 6.0
-  - - :name: shield
-    - :start: 20.0
-    - :glow: 6.0
-  - - :name: attack_range
-    - :start: 1.8
-    - :glow: 
-  - - :name: move_speed
-    - :start: 3.3
-    - :glow: 
-- :name: "Fortress"
-  :status:
-  - - :name: hp
-    - :start: 658.0
-    - :glow: 82.0
-  - - :name: hp_regen
-    - :start: 4.3
-    - :glow: 0.51
-  - - :name: ep
-    - :start: 300.0
-    - :glow: 15.0
-  - - :name: ep_regen
-    - :start: 1.56
-    - :glow: 0.15
-  - - :name: weapon_damage
-    - :start: 80.0
-    - :glow: 7.0
-  - - :name: attack_speed
-    - :start: 1.0
-    - :glow: 0.04
-  - - :name: armor
-    - :start: 20.0
-    - :glow: 6.0
-  - - :name: shield
-    - :start: 20.0
-    - :glow: 5.0
-  - - :name: attack_range
-    - :start: 1.8
-    - :glow: 
-  - - :name: move_speed
-    - :start: 3.4
-    - :glow: 
-- :name: "Joule"
-  :status:
-  - - :name: hp
-    - :start: 770.0
-    - :glow: 85.0
-  - - :name: hp_regen
-    - :start: 4.27
-    - :glow: 0.47
-  - - :name: ep
-    - :start: 390.0
-    - :glow: 15.0
-  - - :name: ep_regen
-    - :start: 3.5
-    - :glow: 0.32
-  - - :name: weapon_damage
-    - :start: 66.0
-    - :glow: 7.5
-  - - :name: attack_speed
-    - :start: 1.0
-    - :glow: 
-  - - :name: armor
-    - :start: 5.0
-    - :glow: 5.0
-  - - :name: shield
-    - :start: 22.0
-    - :glow: 10.1
-  - - :name: attack_range
-    - :start: 2.4
-    - :glow: 
-  - - :name: move_speed
-    - :start: 3.4
-    - :glow: 
-- :name: "Ardan"
-  :status:
-  - - :name: hp
-    - :start: 801.0
-    - :glow: 74.0
-  - - :name: hp_regen
-    - :start: 3.39
-    - :glow: 0.35
-  - - :name: ep
-    - :start: 
-    - :glow: 
-  - - :name: ep_regen
-    - :start: 
-    - :glow: 
-  - - :name: weapon_damage
-    - :start: 80.0
-    - :glow: 6.7
-  - - :name: attack_speed
-    - :start: 1.0
-    - :glow: 0.033
-  - - :name: armor
-    - :start: 30.0
-    - :glow: 6.0
-  - - :name: shield
-    - :start: 20.0
-    - :glow: 6.0
-  - - :name: attack_range
-    - :start: 1.8
-    - :glow: 
-  - - :name: move_speed
-    - :start: 3.3
-    - :glow: 
-- :name: "Skaarf"
-  :status:
-  - - :name: hp
-    - :start: 632.0
-    - :glow: 65.0
-  - - :name: hp_regen
-    - :start: 3.55
-    - :glow: 0.35
-  - - :name: ep
-    - :start: 200.0
-    - :glow: 24.0
-  - - :name: ep_regen
-    - :start: 1.33
-    - :glow: 0.16
-  - - :name: weapon_damage
-    - :start: 74.0
-    - :glow: 6.8
-  - - :name: attack_speed
-    - :start: 1.0
-    - :glow: 
-  - - :name: armor
-    - :start: 20.0
-    - :glow: 6.0
-  - - :name: shield
-    - :start: 20.0
-    - :glow: 6.0
-  - - :name: attack_range
-    - :start: 5.5
-    - :glow: 
-  - - :name: move_speed
-    - :start: 3.3
-    - :glow: 
-- :name: "Taka"
-  :status:
-  - - :name: hp
-    - :start: 741.0
-    - :glow: 74.0
-  - - :name: hp_regen
-    - :start: 3.51
-    - :glow: 0.35
-  - - :name: ep
-    - :start: 180.0
-    - :glow: 22.0
-  - - :name: ep_regen
-    - :start: 1.33
-    - :glow: 0.16
-  - - :name: weapon_damage
-    - :start: 62.0
-    - :glow: 5.7
-  - - :name: attack_speed
-    - :start: 1.0
-    - :glow: 0.033
-  - - :name: armor
-    - :start: 23.0
-    - :glow: 4.5
-  - - :name: shield
-    - :start: 20.0
-    - :glow: 4.0
-  - - :name: attack_range
-    - :start: 2.0
-    - :glow: 
-  - - :name: move_speed
-    - :start: 3.4
-    - :glow: 
-- :name: "Krul"
-  :status:
-  - - :name: hp
-    - :start: 643.0
-    - :glow: 78.0
-  - - :name: hp_regen
-    - :start: 3.51
-    - :glow: 0.39
-  - - :name: ep
-    - :start: 200.0
-    - :glow: 26.0
-  - - :name: ep_regen
-    - :start: 1.33
-    - :glow: 0.17
-  - - :name: weapon_damage
-    - :start: 68.0
-    - :glow: 7.8
-  - - :name: attack_speed
-    - :start: 1.0
-    - :glow: 0.033
-  - - :name: armor
-    - :start: 20.0
-    - :glow: 5.0
-  - - :name: shield
-    - :start: 20.0
-    - :glow: 5.0
-  - - :name: attack_range
-    - :start: 1.5
-    - :glow: 
-  - - :name: move_speed
-    - :start: 3.4
-    - :glow: 
-- :name: "Saw"
-  :status:
-  - - :name: hp
-    - :start: 672.0
-    - :glow: 71.0
-  - - :name: hp_regen
-    - :start: 2.4
-    - :glow: 0.25
-  - - :name: ep
-    - :start: 150.0
-    - :glow: 15.0
-  - - :name: ep_regen
-    - :start: 1.0
-    - :glow: 0.11
-  - - :name: weapon_damage
-    - :start: 50.0
-    - :glow: 3.4
-  - - :name: attack_speed
-    - :start: 1.0
-    - :glow: 0.01
-  - - :name: armor
-    - :start: 20.0
-    - :glow: 4.0
-  - - :name: shield
-    - :start: 20.0
-    - :glow: 4.0
-  - - :name: attack_range
-    - :start: 6.5
-    - :glow: 
-  - - :name: move_speed
-    - :start: 3.1
-    - :glow: 
-- :name: "Petal"
-  :status:
-  - - :name: hp
-    - :start: 672.0
-    - :glow: 71.0
-  - - :name: hp_regen
-    - :start: 2.4
-    - :glow: 0.25
-  - - :name: ep
-    - :start: 150.0
-    - :glow: 15.0
-  - - :name: ep_regen
-    - :start: 1.0
-    - :glow: 0.11
-  - - :name: weapon_damage
-    - :start: 50.0
-    - :glow: 3.4
-  - - :name: attack_speed
-    - :start: 1.0
-    - :glow: 0.01
-  - - :name: armor
-    - :start: 20.0
-    - :glow: 4.0
-  - - :name: shield
-    - :start: 20.0
-    - :glow: 4.0
-  - - :name: attack_range
-    - :start: 6.5
-    - :glow: 
-  - - :name: move_speed
-    - :start: 3.1
-    - :glow: 
-- :name: "Glaive"
-  :status:
-  - - :name: hp
-    - :start: 814.0
-    - :glow: 112.0
-  - - :name: hp_regen
-    - :start: 2.47
-    - :glow: 0.34
-  - - :name: ep
-    - :start: 220.0
-    - :glow: 20.0
-  - - :name: ep_regen
-    - :start: 1.47
-    - :glow: 0.13
-  - - :name: weapon_damage
-    - :start: 80.0
-    - :glow: 6.7
-  - - :name: attack_speed
-    - :start: 1.0
-    - :glow: 0.012
-  - - :name: armor
-    - :start: 25.0
-    - :glow: 3.5
-  - - :name: shield
-    - :start: 25.0
-    - :glow: 3.5
-  - - :name: attack_range
-    - :start: 2.6
-    - :glow: 
-  - - :name: move_speed
-    - :start: 3.3
-    - :glow: 
-- :name: "Koshka"
-  :status:
-  - - :name: hp
-    - :start: 761.0
-    - :glow: 67.0
-  - - :name: hp_regen
-    - :start: 3.54
-    - :glow: 0.31
-  - - :name: ep
-    - :start: 280.0
-    - :glow: 33.0
-  - - :name: ep_regen
-    - :start: 1.87
-    - :glow: 0.22
-  - - :name: weapon_damage
-    - :start: 79.0
-    - :glow: 7.8
-  - - :name: attack_speed
-    - :start: 1.0
-    - :glow: 0.008
-  - - :name: armor
-    - :start: 20.0
-    - :glow: 6.0
-  - - :name: shield
-    - :start: 20.0
-    - :glow: 6.0
-  - - :name: attack_range
-    - :start: 1.7
-    - :glow: 
-  - - :name: move_speed
-    - :start: 3.25
-    - :glow: 
-- :name: "Adagio"
-  :status:
-  - - :name: hp
-    - :start: 719.0
-    - :glow: 85.0
-  - - :name: hp_regen
-    - :start: 2.18
-    - :glow: 0.26
-  - - :name: ep
-    - :start: 400.0
-    - :glow: 35.0
-  - - :name: ep_regen
-    - :start: 2.67
-    - :glow: 0.23
-  - - :name: weapon_damage
-    - :start: 75.0
-    - :glow: 3.9
-  - - :name: attack_speed
-    - :start: 1.0
-    - :glow: 
-  - - :name: armor
-    - :start: 20.0
-    - :glow: 6.0
-  - - :name: shield
-    - :start: 20.0
-    - :glow: 6.0
-  - - :name: attack_range
-    - :start: 6.8
-    - :glow: 
-  - - :name: move_speed
-    - :start: 3.2
-    - :glow: 
-- :name: "Ringo"
-  :status:
-  - - :name: hp
-    - :start: 646.0
-    - :glow: 69.0
-  - - :name: hp_regen
-    - :start: 2.15
-    - :glow: 0.23
-  - - :name: ep
-    - :start: 180.0
-    - :glow: 22.0
-  - - :name: ep_regen
-    - :start: 1.2
-    - :glow: 0.15
-  - - :name: weapon_damage
-    - :start: 66.0
-    - :glow: 5.9
-  - - :name: attack_speed
-    - :start: 1.0
-    - :glow: 0.033
-  - - :name: armor
-    - :start: 20.0
-    - :glow: 6.0
-  - - :name: shield
-    - :start: 20.0
-    - :glow: 6.0
-  - - :name: attack_range
-    - :start: 6.0
-    - :glow: 
-  - - :name: move_speed
-    - :start: 3.1
-    - :glow: 
-- :name: "Catherine"
-  :status:
-  - - :name: hp
-    - :start: 772.0
-    - :glow: 67.0
-  - - :name: hp_regen
-    - :start: 4.06
-    - :glow: 0.35
-  - - :name: ep
-    - :start: 200.0
-    - :glow: 24.0
-  - - :name: ep_regen
-    - :start: 1.33
-    - :glow: 0.16
-  - - :name: weapon_damage
-    - :start: 74.0
-    - :glow: 6.1
-  - - :name: attack_speed
-    - :start: 1.0
-    - :glow: 0.033
-  - - :name: armor
-    - :start: 25.0
-    - :glow: 5.0
-  - - :name: shield
-    - :start: 25.0
-    - :glow: 8.0
-  - - :name: attack_range
-    - :start: 1.5
-    - :glow: 
-  - - :name: move_speed
-    - :start: 3.4
-    - :glow: 
-- :name: "Celeste"
-  :status:
-  - - :name: hp
-    - :start: 632.0
-    - :glow: 65.0
-  - - :name: hp_regen
-    - :start: 2.23
-    - :glow: 0.23
-  - - :name: ep
-    - :start: 380.0
-    - :glow: 32.0
-  - - :name: ep_regen
-    - :start: 2.53
-    - :glow: 0.21
-  - - :name: weapon_damage
-    - :start: 10.0
-    - :glow: 
-  - - :name: attack_speed
-    - :start: 1.0
-    - :glow: 0.032
-  - - :name: armor
-    - :start: 20.0
-    - :glow: 6.0
-  - - :name: shield
-    - :start: 20.0
-    - :glow: 6.0
-  - - :name: attack_range
-    - :start: 5.0
-    - :glow: 
-  - - :name: move_speed
-    - :start: 3.3
-    - :glow: 
-- :name: "Vox"
-  :status:
-  - - :name: hp
-    - :start: 695.0
-    - :glow: 70.0
-  - - :name: hp_regen
-    - :start: 3.55
-    - :glow: 0.35
-  - - :name: ep
-    - :start: 200.0
-    - :glow: 24.0
-  - - :name: ep_regen
-    - :start: 1.33
-    - :glow: 0.16
-  - - :name: weapon_damage
-    - :start: 52.0
-    - :glow: 2.5
-  - - :name: attack_speed
-    - :start: 1.0
-    - :glow: 0.04
-  - - :name: armor
-    - :start: 20.0
-    - :glow: 6.0
-  - - :name: shield
-    - :start: 20.0
-    - :glow: 6.0
-  - - :name: attack_range
-    - :start: 4.5
-    - :glow: 
-  - - :name: move_speed
-    - :start: 3.3
-    - :glow: 
+:rona:
+  :hp:
+    :start: 799.0
+    :glow: 90.0
+  :hp_regen:
+    :start: 
+    :glow: 
+  :weapon_damage:
+    :start: 88.0
+    :glow: 6.2
+  :attack_speed:
+    :start: 1.0
+    :glow: 0.012
+  :armor:
+    :start: 20.0
+    :glow: 6.0
+  :shield:
+    :start: 20.0
+    :glow: 6.0
+  :attack_range:
+    :start: 1.8
+    :glow: 
+  :move_speed:
+    :start: 3.3
+    :glow: 
+:fortress:
+  :hp:
+    :start: 658.0
+    :glow: 82.0
+  :hp_regen:
+    :start: 4.3
+    :glow: 0.51
+  :ep:
+    :start: 300.0
+    :glow: 15.0
+  :ep_regen:
+    :start: 1.56
+    :glow: 0.15
+  :weapon_damage:
+    :start: 80.0
+    :glow: 7.0
+  :attack_speed:
+    :start: 1.0
+    :glow: 0.04
+  :armor:
+    :start: 20.0
+    :glow: 6.0
+  :shield:
+    :start: 20.0
+    :glow: 5.0
+  :attack_range:
+    :start: 1.8
+    :glow: 
+  :move_speed:
+    :start: 3.4
+    :glow: 
+:joule:
+  :hp:
+    :start: 770.0
+    :glow: 85.0
+  :hp_regen:
+    :start: 4.27
+    :glow: 0.47
+  :ep:
+    :start: 390.0
+    :glow: 15.0
+  :ep_regen:
+    :start: 3.5
+    :glow: 0.32
+  :weapon_damage:
+    :start: 66.0
+    :glow: 7.5
+  :attack_speed:
+    :start: 1.0
+    :glow: 
+  :armor:
+    :start: 5.0
+    :glow: 5.0
+  :shield:
+    :start: 22.0
+    :glow: 10.1
+  :attack_range:
+    :start: 2.4
+    :glow: 
+  :move_speed:
+    :start: 3.4
+    :glow: 
+:ardan:
+  :hp:
+    :start: 801.0
+    :glow: 74.0
+  :hp_regen:
+    :start: 3.39
+    :glow: 0.35
+  :ep:
+    :start: 
+    :glow: 
+  :ep_regen:
+    :start: 
+    :glow: 
+  :weapon_damage:
+    :start: 80.0
+    :glow: 6.7
+  :attack_speed:
+    :start: 1.0
+    :glow: 0.033
+  :armor:
+    :start: 30.0
+    :glow: 6.0
+  :shield:
+    :start: 20.0
+    :glow: 6.0
+  :attack_range:
+    :start: 1.8
+    :glow: 
+  :move_speed:
+    :start: 3.3
+    :glow: 
+:skaarf:
+  :hp:
+    :start: 632.0
+    :glow: 65.0
+  :hp_regen:
+    :start: 3.55
+    :glow: 0.35
+  :ep:
+    :start: 200.0
+    :glow: 24.0
+  :ep_regen:
+    :start: 1.33
+    :glow: 0.16
+  :weapon_damage:
+    :start: 74.0
+    :glow: 6.8
+  :attack_speed:
+    :start: 1.0
+    :glow: 
+  :armor:
+    :start: 20.0
+    :glow: 6.0
+  :shield:
+    :start: 20.0
+    :glow: 6.0
+  :attack_range:
+    :start: 5.5
+    :glow: 
+  :move_speed:
+    :start: 3.3
+    :glow: 
+:taka:
+  :hp:
+    :start: 741.0
+    :glow: 74.0
+  :hp_regen:
+    :start: 3.51
+    :glow: 0.35
+  :ep:
+    :start: 180.0
+    :glow: 22.0
+  :ep_regen:
+    :start: 1.33
+    :glow: 0.16
+  :weapon_damage:
+    :start: 62.0
+    :glow: 5.7
+  :attack_speed:
+    :start: 1.0
+    :glow: 0.033
+  :armor:
+    :start: 23.0
+    :glow: 4.5
+  :shield:
+    :start: 20.0
+    :glow: 4.0
+  :attack_range:
+    :start: 2.0
+    :glow: 
+  :move_speed:
+    :start: 3.4
+    :glow: 
+:krul:
+  :hp:
+    :start: 643.0
+    :glow: 78.0
+  :hp_regen:
+    :start: 3.51
+    :glow: 0.39
+  :ep:
+    :start: 200.0
+    :glow: 26.0
+  :ep_regen:
+    :start: 1.33
+    :glow: 0.17
+  :weapon_damage:
+    :start: 68.0
+    :glow: 7.8
+  :attack_speed:
+    :start: 1.0
+    :glow: 0.033
+  :armor:
+    :start: 20.0
+    :glow: 5.0
+  :shield:
+    :start: 20.0
+    :glow: 5.0
+  :attack_range:
+    :start: 1.5
+    :glow: 
+  :move_speed:
+    :start: 3.4
+    :glow: 
+:saw:
+  :hp:
+    :start: 672.0
+    :glow: 71.0
+  :hp_regen:
+    :start: 2.4
+    :glow: 0.25
+  :ep:
+    :start: 150.0
+    :glow: 15.0
+  :ep_regen:
+    :start: 1.0
+    :glow: 0.11
+  :weapon_damage:
+    :start: 50.0
+    :glow: 3.4
+  :attack_speed:
+    :start: 1.0
+    :glow: 0.01
+  :armor:
+    :start: 20.0
+    :glow: 4.0
+  :shield:
+    :start: 20.0
+    :glow: 4.0
+  :attack_range:
+    :start: 6.5
+    :glow: 
+  :move_speed:
+    :start: 3.1
+    :glow: 
+:petal:
+  :hp:
+    :start: 672.0
+    :glow: 71.0
+  :hp_regen:
+    :start: 2.4
+    :glow: 0.25
+  :ep:
+    :start: 150.0
+    :glow: 15.0
+  :ep_regen:
+    :start: 1.0
+    :glow: 0.11
+  :weapon_damage:
+    :start: 50.0
+    :glow: 3.4
+  :attack_speed:
+    :start: 1.0
+    :glow: 0.01
+  :armor:
+    :start: 20.0
+    :glow: 4.0
+  :shield:
+    :start: 20.0
+    :glow: 4.0
+  :attack_range:
+    :start: 6.5
+    :glow: 
+  :move_speed:
+    :start: 3.1
+    :glow: 
+:glaive:
+  :hp:
+    :start: 814.0
+    :glow: 112.0
+  :hp_regen:
+    :start: 2.47
+    :glow: 0.34
+  :ep:
+    :start: 220.0
+    :glow: 20.0
+  :ep_regen:
+    :start: 1.47
+    :glow: 0.13
+  :weapon_damage:
+    :start: 80.0
+    :glow: 6.7
+  :attack_speed:
+    :start: 1.0
+    :glow: 0.012
+  :armor:
+    :start: 25.0
+    :glow: 3.5
+  :shield:
+    :start: 25.0
+    :glow: 3.5
+  :attack_range:
+    :start: 2.6
+    :glow: 
+  :move_speed:
+    :start: 3.3
+    :glow: 
+:koshka:
+  :hp:
+    :start: 761.0
+    :glow: 67.0
+  :hp_regen:
+    :start: 3.54
+    :glow: 0.31
+  :ep:
+    :start: 280.0
+    :glow: 33.0
+  :ep_regen:
+    :start: 1.87
+    :glow: 0.22
+  :weapon_damage:
+    :start: 79.0
+    :glow: 7.8
+  :attack_speed:
+    :start: 1.0
+    :glow: 0.008
+  :armor:
+    :start: 20.0
+    :glow: 6.0
+  :shield:
+    :start: 20.0
+    :glow: 6.0
+  :attack_range:
+    :start: 1.7
+    :glow: 
+  :move_speed:
+    :start: 3.25
+    :glow: 
+:adagio:
+  :hp:
+    :start: 719.0
+    :glow: 85.0
+  :hp_regen:
+    :start: 2.18
+    :glow: 0.26
+  :ep:
+    :start: 400.0
+    :glow: 35.0
+  :ep_regen:
+    :start: 2.67
+    :glow: 0.23
+  :weapon_damage:
+    :start: 75.0
+    :glow: 3.9
+  :attack_speed:
+    :start: 1.0
+    :glow: 
+  :armor:
+    :start: 20.0
+    :glow: 6.0
+  :shield:
+    :start: 20.0
+    :glow: 6.0
+  :attack_range:
+    :start: 6.8
+    :glow: 
+  :move_speed:
+    :start: 3.2
+    :glow: 
+:ringo:
+  :hp:
+    :start: 646.0
+    :glow: 69.0
+  :hp_regen:
+    :start: 2.15
+    :glow: 0.23
+  :ep:
+    :start: 180.0
+    :glow: 22.0
+  :ep_regen:
+    :start: 1.2
+    :glow: 0.15
+  :weapon_damage:
+    :start: 66.0
+    :glow: 5.9
+  :attack_speed:
+    :start: 1.0
+    :glow: 0.033
+  :armor:
+    :start: 20.0
+    :glow: 6.0
+  :shield:
+    :start: 20.0
+    :glow: 6.0
+  :attack_range:
+    :start: 6.0
+    :glow: 
+  :move_speed:
+    :start: 3.1
+    :glow: 
+:catherine:
+  :hp:
+    :start: 772.0
+    :glow: 67.0
+  :hp_regen:
+    :start: 4.06
+    :glow: 0.35
+  :ep:
+    :start: 200.0
+    :glow: 24.0
+  :ep_regen:
+    :start: 1.33
+    :glow: 0.16
+  :weapon_damage:
+    :start: 74.0
+    :glow: 6.1
+  :attack_speed:
+    :start: 1.0
+    :glow: 0.033
+  :armor:
+    :start: 25.0
+    :glow: 5.0
+  :shield:
+    :start: 25.0
+    :glow: 8.0
+  :attack_range:
+    :start: 1.5
+    :glow: 
+  :move_speed:
+    :start: 3.4
+    :glow: 
+:celeste:
+  :hp:
+    :start: 632.0
+    :glow: 65.0
+  :hp_regen:
+    :start: 2.23
+    :glow: 0.23
+  :ep:
+    :start: 380.0
+    :glow: 32.0
+  :ep_regen:
+    :start: 2.53
+    :glow: 0.21
+  :weapon_damage:
+    :start: 10.0
+    :glow: 
+  :attack_speed:
+    :start: 1.0
+    :glow: 0.032
+  :armor:
+    :start: 20.0
+    :glow: 6.0
+  :shield:
+    :start: 20.0
+    :glow: 6.0
+  :attack_range:
+    :start: 5.0
+    :glow: 
+  :move_speed:
+    :start: 3.3
+    :glow: 
+:vox:
+  :hp:
+    :start: 695.0
+    :glow: 70.0
+  :hp_regen:
+    :start: 3.55
+    :glow: 0.35
+  :ep:
+    :start: 200.0
+    :glow: 24.0
+  :ep_regen:
+    :start: 1.33
+    :glow: 0.16
+  :weapon_damage:
+    :start: 52.0
+    :glow: 2.5
+  :attack_speed:
+    :start: 1.0
+    :glow: 0.04
+  :armor:
+    :start: 20.0
+    :glow: 6.0
+  :shield:
+    :start: 20.0
+    :glow: 6.0
+  :attack_range:
+    :start: 4.5
+    :glow: 
+  :move_speed:
+    :start: 3.3
+    :glow: 
