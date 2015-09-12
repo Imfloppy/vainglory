@@ -16,7 +16,7 @@ module Vainglory
 
     def init
       self.heroes = {}
-      heroes_data = File.load_data('vainglory_heroes.yml')
+      heroes_data = File.load_data('heroes_status.yml')
       heroes_data.each do |name, status|
         heroes[name] = Hero.new(name.to_s, status)
       end
