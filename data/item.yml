@@ -18,6 +18,7 @@
 :swift_shooter:
   :kind:
     - weapon
+    - ability
   :tier: 1
   :gold: 300
   :to:
@@ -64,12 +65,14 @@
 :blazing_salvo:
   :kind:
     - weapon
+    - ability
   :tier: 2
   :gold: 700
   :to:
     - breaking_point
     - bonesaw
     - tornado_trigger
+    - alternating_current
 :lucky_strike:
   :kind:
     - weapon
@@ -114,3 +117,104 @@
     - weapon
   :tier: 3
   :gold: 2750
+:crystal_bit:
+  :kind:
+    - ability
+  :tier: 1
+  :gold: 300
+  :to:
+    - heavy_prism
+    - eclipse_prism
+    - piercing_shard
+:energy_battery:
+  :kind:
+    - ability
+  :tier: 1
+  :gold: 300
+  :to:
+    - void_battery
+:hourglass:
+  :kind:
+    - ability
+  :tier: 1
+  :gold: 250
+  :to:
+    - chronograph
+:heavy_prism:
+  :kind:
+    - ability
+  :tier: 2
+  :gold: 1050
+  :to:
+    - shatterglass
+    - broken_myth
+    - frostburn
+    - eve_of_harvest
+    - alternating_current
+:eclipse_prism:
+  :kind:
+    - ability
+  :tier: 2
+  :gold: 650
+  :to:
+    - shatterglass
+    - frostburn
+    - aftershock
+:void_battery:
+  :kind:
+    - ability
+  :tier: 2
+  :gold: 750
+  :to:
+    - eve_of_harvest
+    - clockwork
+:piercing_shard:
+  :kind:
+    - ability
+  :tier: 2
+  :gold: 900
+  :to:
+    - broken_myth
+:chronograph:
+  :kind:
+    - ability
+  :tier: 2
+  :gold: 800
+  :to:
+    - clockwork
+    - aftershock
+:shatterglass:
+  :kind:
+    - ability
+  :tier: 3
+  :gold: 3000
+:broken_myth:
+  :kind:
+    - ability
+  :tier: 3
+  :gold: 3100
+:frostburn:
+  :kind:
+    - ability
+  :tier: 3
+  :gold: 2400
+:eve_of_harvest:
+  :kind:
+    - ability
+  :tier: 3
+  :gold: 2600
+:clockwork:
+  :kind:
+    - ability
+  :tier: 3
+  :gold: 1950
+:aftershock:
+  :kind:
+    - ability
+  :tier: 3
+  :gold: 2600
+:alternating_current:
+  :kind:
+    - ability
+  :tier: 3
+  :gold: 2800
