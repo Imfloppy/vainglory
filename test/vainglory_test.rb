@@ -20,8 +20,11 @@ class VaingloryTest < Minitest::Test
   def test_set_level
     koshka = Vainglory.hero :コシュカ
     assert_equal koshka.level, 1
-    koshka.set_level(12)
+    assert_equal koshka.hp, 761
+    assert_equal koshka.attack_range, 1.7
+    koshka.level = 12
     assert_equal koshka.level, 12
+    assert_equal koshka.attack_range, 1.7
     assert_equal koshka.hp, 1498
   end
 end
