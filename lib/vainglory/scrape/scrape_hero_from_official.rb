@@ -64,17 +64,18 @@ module Vainglory
          ability_hash.merge!(ability.to_hash)
        end
 
+       name = @name.downcase
        case format
        when nil
          {
-           name: @name,
+           name: name,
            excerpt: @excerpt,
            status: status_hash,
            ability: ability_hash
          }
        when :status
          hash = Hash.new
-         hash.store(@name.to_sym, status_hash)
+         hash.store(name.to_sym, status_hash)
          hash
        end
     end
