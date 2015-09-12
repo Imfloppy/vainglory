@@ -218,3 +218,89 @@
     - ability
   :tier: 3
   :gold: 2800
+:oakheart:
+  :kind:
+    - defense
+  :tier: 1
+  :gold: 300
+  :to:
+    - dragonheart
+    - lifespring
+    - reflex_block
+:light_shield:
+  :kind:
+    - defense
+  :tier: 1
+  :gold: 250
+  :to:
+    - kinetic_shield
+:light_armor:
+  :kind:
+    - defense
+  :tier: 1
+  :gold: 250
+  :to:
+    - coat_of_plates
+:dragonheart:
+  :kind:
+    - defense
+  :tier: 2
+  :gold: 650
+  :to:
+    - crucible
+:lifespring:
+  :kind:
+    - defense
+  :tier: 2
+  :gold: 800
+  :to:
+    - fountain_of_renewal
+:reflex_block:
+  :kind:
+    - defense
+  :tier: 2
+  :gold: 700
+  :to:
+    - crucible
+    - aegis
+:kinetic_shield:
+  :kind:
+    - defense
+  :tier: 2
+  :gold: 800
+  :to:
+    - fountain_of_renewal
+    - aegis
+:coat_of_plates:
+  :kind:
+    - defense
+  :tier: 2
+  :gold: 800
+  :to:
+    - metal_jacket
+    - atlas_pauldron
+:crucible:
+  :kind:
+    - defense
+  :tier: 3
+  :gold: 1850
+:fountain_of_renewal:
+  :kind:
+    - defense
+  :tier: 3
+  :gold: 2300
+:aegis:
+  :kind:
+    - defense
+  :tier: 3
+  :gold: 2250
+:metal_jacket:
+  :kind:
+    - defense
+  :tier: 3
+  :gold: 2100
+:atlas_pauldron:
+  :kind:
+    - defense
+  :tier: 3
+  :gold: 1900
