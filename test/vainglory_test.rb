@@ -47,8 +47,8 @@ class VaingloryTest < Minitest::Test
       { name: 'krul', hp: 1501.0 },
       { name: 'koshka', hp: 1498.0 },
       { name: 'vox', hp: 1465.0 },
-      { name: 'saw', hp: 1453.0 },
       { name: 'petal', hp: 1453.0 },
+      { name: 'saw', hp: 1453.0 },
       { name: 'ringo', hp: 1405.0 },
       { name: 'celeste', hp: 1347.0 },
       { name: 'skaarf', hp: 1347.0 }
@@ -60,8 +60,8 @@ class VaingloryTest < Minitest::Test
 
     hp_list_in_all_heroes = Vainglory.status :hp, 12, :asc
     hp_list_at_level_12_in_order_asc = [
-      { name: 'skaarf', hp: 1347.0 },
       { name: 'celeste', hp: 1347.0 },
+      { name: 'skaarf', hp: 1347.0 },
       { name: 'ringo', hp: 1405.0 },
       { name: 'petal', hp: 1453.0 },
       { name: 'saw', hp: 1453.0 },
@@ -93,8 +93,8 @@ class VaingloryTest < Minitest::Test
       { name: 'fortress', hp: 986 },
       { name: 'skye', hp: 982.0 },
       { name: 'vox', hp: 975.0 },
-      { name: 'saw', hp: 956.0 },
       { name: 'petal', hp: 956.0 },
+      { name: 'saw', hp: 956.0 },
       { name: 'krul', hp: 955.0 },
       { name: 'ringo', hp: 922.0 },
       { name: 'celeste', hp: 892.0 },

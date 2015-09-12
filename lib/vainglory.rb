@@ -35,15 +35,20 @@ module Vainglory
         hero.level = before_level
       end
 
-      status_list.sort_by! do |hero|
-        hero[status_name_symbol]
+      status_list.sort! do |hero_a, hero_b|
+        if hero_a[status_name_symbol] == hero_b[status_name_symbol]
+          hero_a[:name] <=> hero_b[:name]
+          #hero_b[:name] <=> hero_a[:name]
+        else
+          case order
+          when :asc
+            hero_a[status_name_symbol] <=> hero_b[status_name_symbol]
+          when :desc
+            hero_b[status_name_symbol] <=> hero_a[status_name_symbol]
+          end
+        end
       end
-      case order
-      when :asc
-        status_list
-      when :desc
-        status_list.reverse
-      end
+      status_list
     end
   end
 end
