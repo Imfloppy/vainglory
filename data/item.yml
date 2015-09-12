@@ -29,7 +29,7 @@
   :tier: 1
   :buy: 300
   :to:
-    - lucky strike
+    - lucky_strike
 :heavy_steel:
   :kind:
     - weapon
@@ -58,7 +58,7 @@
   :kind:
     - weapon
   :tier: 2
-  :glod: 900
+  :buy: 900
   :to:
     - tension_bow
     - bonesaw
