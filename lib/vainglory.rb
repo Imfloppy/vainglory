@@ -53,7 +53,6 @@ module Vainglory
       status_list.sort! do |hero_a, hero_b|
         if hero_a[status_name_symbol] == hero_b[status_name_symbol]
           hero_a[:name] <=> hero_b[:name]
-          #hero_b[:name] <=> hero_a[:name]
         else
           case order
           when :asc
