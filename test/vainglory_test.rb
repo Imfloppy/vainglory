@@ -29,6 +29,13 @@ class VaingloryTest < Minitest::Test
     assert_equal koshka.hp, 1498
   end
 
+  def test_set_ability
+    rona = Vainglory.hero :rona
+    assert_equal "berserkers'_fury", rona.ability[0][:name]
+    assert_equal "into_the_fray", rona.ability[1][:name]
+    assert_equal 16, rona.ability[1][:cool_down][:effect][3]
+  end
+
   def test_fetch_hp_list_in_all_heroes
     koshka = Vainglory.hero :koshka
     koshka.level = 5
