@@ -1,0 +1,413 @@
+---
+:weapon_blade:
+  :kind:
+    - weapon
+  :tier: 1
+  :buy: 300
+  :to:
+    - heavy_steel
+    - six_sins
+    - piercing_spear
+:book_of_eulogies:
+  :kind:
+    - weapon
+  :tier: 1
+  :buy: 300
+  :to:
+    - barbed_needle
+:swift_shooter:
+  :kind:
+    - weapon
+    - ability
+  :tier: 1
+  :buy: 300
+  :to:
+    - blazing_salvo
+:minion_s_foot:
+  :kind:
+    - weapon
+  :tier: 1
+  :buy: 300
+  :to:
+    - lucky_strike
+:heavy_steel:
+  :kind:
+    - weapon
+  :tier: 2
+  :buy: 1150
+  :to:
+    - sorrowblade
+    - serpent_mask
+:six_sins:
+  :kind:
+    - weapon
+  :tier: 2
+  :buy: 650
+  :to:
+    - sorrowblade
+    - tension_bow
+    - tyrant_s_monocle
+:barbed_needle:
+  :kind:
+    - weapon
+  :tier: 2
+  :buy: 800
+  :to:
+    - serpent_mask
+:piercing_spear:
+  :kind:
+    - weapon
+  :tier: 2
+  :buy: 900
+  :to:
+    - tension_bow
+    - bonesaw
+:blazing_salvo:
+  :kind:
+    - weapon
+    - ability
+  :tier: 2
+  :buy: 700
+  :to:
+    - breaking_point
+    - bonesaw
+    - tornado_trigger
+    - alternating_current
+:lucky_strike:
+  :kind:
+    - weapon
+  :tier: 2
+  :buy: 900
+  :to:
+    - breaking_point
+    - tornado_trigger
+    - tyrant_s_monocle
+:sarrowblade:
+  :kind:
+    - weapon
+  :tier: 3
+  :buy: 3100
+:serpent_mask:
+  :kind:
+    - weapon
+  :tier: 3
+  :buy: 2800
+:breaking_point:
+  :kind:
+    - weapon
+  :tier: 3
+  :buy: 2400
+:tension_bow:
+  :kind:
+    - weapon
+  :tier: 3
+  :buy: 2150
+:bonesaw:
+  :kind:
+    - weapon
+  :tier: 3
+  :buy: 2700
+:tornado_trigger:
+  :kind:
+    - weapon
+  :tier: 3
+  :buy: 2600
+:tyrant_s_monocle:
+  :kind:
+    - weapon
+  :tier: 3
+  :buy: 2750
+:crystal_bit:
+  :kind:
+    - ability
+  :tier: 1
+  :buy: 300
+  :to:
+    - heavy_prism
+    - eclipse_prism
+    - piercing_shard
+:energy_battery:
+  :kind:
+    - ability
+  :tier: 1
+  :buy: 300
+  :to:
+    - void_battery
+:hourglass:
+  :kind:
+    - ability
+    - utility
+  :tier: 1
+  :buy: 250
+  :to:
+    - chronograph
+:heavy_prism:
+  :kind:
+    - ability
+  :tier: 2
+  :buy: 1050
+  :to:
+    - shatterglass
+    - broken_myth
+    - frostburn
+    - eve_of_harvest
+    - alternating_current
+:eclipse_prism:
+  :kind:
+    - ability
+  :tier: 2
+  :buy: 650
+  :to:
+    - shatterglass
+    - frostburn
+    - aftershock
+:void_battery:
+  :kind:
+    - ability
+  :tier: 2
+  :buy: 750
+  :to:
+    - eve_of_harvest
+    - clockwork
+:piercing_shard:
+  :kind:
+    - ability
+  :tier: 2
+  :buy: 900
+  :to:
+    - broken_myth
+:chronograph:
+  :kind:
+    - ability
+    - utility
+  :tier: 2
+  :buy: 800
+  :to:
+    - clockwork
+    - aftershock
+    - contraption
+:shatterglass:
+  :kind:
+    - ability
+  :tier: 3
+  :buy: 3000
+:broken_myth:
+  :kind:
+    - ability
+  :tier: 3
+  :buy: 3100
+:frostburn:
+  :kind:
+    - ability
+  :tier: 3
+  :buy: 2400
+:eve_of_harvest:
+  :kind:
+    - ability
+  :tier: 3
+  :buy: 2600
+:clockwork:
+  :kind:
+    - ability
+  :tier: 3
+  :buy: 1950
+:aftershock:
+  :kind:
+    - ability
+  :tier: 3
+  :buy: 2600
+:alternating_current:
+  :kind:
+    - ability
+  :tier: 3
+  :buy: 2800
+:oakheart:
+  :kind:
+    - defense
+    - utility
+  :tier: 1
+  :buy: 300
+  :to:
+    - dragonheart
+    - lifespring
+    - reflex_block
+:light_shield:
+  :kind:
+    - defense
+  :tier: 1
+  :buy: 250
+  :to:
+    - kinetic_shield
+:light_armor:
+  :kind:
+    - defense
+  :tier: 1
+  :buy: 250
+  :to:
+    - coat_of_plates
+:dragonheart:
+  :kind:
+    - defense
+    - utility
+  :tier: 2
+  :buy: 650
+  :to:
+    - crucible
+    - warhorn
+    - shiversteel
+:lifespring:
+  :kind:
+    - defense
+  :tier: 2
+  :buy: 800
+  :to:
+    - fountain_of_renewal
+:reflex_block:
+  :kind:
+    - defense
+  :tier: 2
+  :buy: 700
+  :cool_down: 45
+  :to:
+    - crucible
+    - aegis
+:kinetic_shield:
+  :kind:
+    - defense
+  :tier: 2
+  :buy: 800
+  :to:
+    - fountain_of_renewal
+    - aegis
+:coat_of_plates:
+  :kind:
+    - defense
+  :tier: 2
+  :buy: 800
+  :to:
+    - metal_jacket
+    - atlas_pauldron
+:crucible:
+  :kind:
+    - defense
+  :tier: 3
+  :buy: 1850
+  :cool_down: 45
+:fountain_of_renewal:
+  :kind:
+    - defense
+  :tier: 3
+  :buy: 2300
+  :cool_down: 60
+:aegis:
+  :kind:
+    - defense
+  :tier: 3
+  :buy: 2250
+  :cool_down: 35
+:metal_jacket:
+  :kind:
+    - defense
+  :tier: 3
+  :buy: 2100
+:atlas_pauldron:
+  :kind:
+    - defense
+  :tier: 3
+  :buy: 1900
+  :cool_down: 15
+:sprint_boots:
+  :kind:
+    - utility
+  :tier: 1
+  :buy: 300
+  :cool_down: 150
+  :to:
+    - travel_boots
+:ironguard_contract:
+  :kind:
+    - utility
+  :tier: 1
+  :buy: 300
+  :to:
+    - stormguard_banner
+:travel_boots:
+  :kind:
+    - utility
+  :tier: 2
+  :buy: 1000
+  :cool_down: 90
+  :to:
+    - journey_boots
+:stormguard_banner:
+  :kind:
+    - utility
+  :tier: 2
+  :buy: 950
+  :to:
+    - contraption
+    - warhorn
+:journey_boots:
+  :kind:
+    - utility
+  :tier: 3
+  :buy: 1900
+  :cool_down: 50
+:contraption:
+  :kind:
+    - utility
+  :tier: 3
+  :buy: 2500
+  :cool_down: 3
+:warhorn:
+  :kind:
+    - utility
+  :tier: 3
+  :buy: 2500
+  :cool_down: 40
+:shiversteel:
+  :kind:
+    - utility
+  :tier: 3
+  :buy: 1450
+  :cool_down: 20
+:halcyon_potion:
+  :kind:
+    - consumable
+  :buy: 25
+  :cool_down: 25
+:flare_gun:
+  :kind:
+    - consumable
+  :buy: 25
+  :cool_down: 5
+:scout_trap:
+  :kind:
+    - consumable
+  :buy: 50
+  :cool_down: 4
+:minion_candy:
+  :kind:
+    - consumable
+  :buy: 50
+  :cool_down: 1
+:weapon_infusion:
+  :kind:
+    - consumable
+  :buy: 500
+  :cool_down: 1
+:crystal_infusion:
+  :kind:
+    - consumable
+  :buy: 500
+  :cool_down: 1
+:pot_of_gold:
+  :kind:
+    - consumable
+  :buy: 0
+  :cool_down: 1
+:level_juice:
+  :kind:
+    - consumable
+  :buy: 0
+  :cool_down: 1
