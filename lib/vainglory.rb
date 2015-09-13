@@ -22,17 +22,12 @@ module Vainglory
       end
 
       heroes_ability = YAML::load_file('data/heroes_ability.yml')
-      self.heroes.each do |self_hero_name, self_hero_value|
-        heroes_ability.each do |target_hero_name, abilities|
-          if self_hero_name == target_hero_name
-            abilities.each do |ability_name, ability_value|
-              ability = { name: ability_name.to_s }
-              # パッシブアビリティがまだ未入力のためnilか確認
-              ability.merge!(ability_value) if !ability_value.nil?
-              self_hero_value.ability << ability
-            end
-            break
-          end
+      self.heroes.each do |hero_name, hero_value|
+        heroes_ability[hero_name].each do |ability_name, ability_value|
+          ability = { name: ability_name.to_s }
+          # パッシブアビリティがまだ未入力のためnilか確認
+          ability.merge!(ability_value) if !ability_value.nil?
+          hero_value.ability << ability
         end
       end
     end
@@ -53,7 +48,6 @@ module Vainglory
       status_list.sort! do |hero_a, hero_b|
         if hero_a[status_name_symbol] == hero_b[status_name_symbol]
           hero_a[:name] <=> hero_b[:name]
-          #hero_b[:name] <=> hero_a[:name]
         else
           case order
           when :asc
