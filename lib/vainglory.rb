@@ -20,6 +20,21 @@ module Vainglory
       heroes_data.each do |name, status|
         heroes[name] = Hero.new(name.to_s, status)
       end
+
+      heroes_ability = YAML::load_file('data/heroes_ability.yml')
+      self.heroes.each do |self_hero_name, self_hero_value|
+        heroes_ability.each do |target_hero_name, abilities|
+          if self_hero_name == target_hero_name
+            abilities.each do |ability_name, ability_value|
+              ability = { name: ability_name.to_s }
+              # パッシブアビリティがまだ未入力のためnilか確認
+              ability.merge!(ability_value) if !ability_value.nil?
+              self_hero_value.ability << ability
+            end
+            break
+          end
+        end
+      end
     end
 
     def status(status_name, level = 12, order = :desc)
