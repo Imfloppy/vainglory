@@ -111,4 +111,18 @@ class VaingloryTest < Minitest::Test
 
     assert_equal koshka.level, 5
   end
+
+  def test_fetch_ability_list_in_all_heroes
+    heighest_damage = { name: 'verse_of_judgement', level: 3, damage: 910 }
+
+    damage_list_in_all_heroes = Vainglory.ability :damage
+    assert_equal heighest_damage, damage_list_in_all_heroes[0]
+
+    damage_list_in_all_heroes = Vainglory.ability :damage, :desc
+    assert_equal heighest_damage, damage_list_in_all_heroes[0]
+
+    earliest_cool_down = { name: 'heliogenesis', level: 5, cool_down: 1 }
+    cool_down_list_in_all_heroes = Vainglory.ability :cool_down, :asc
+    assert_equal earliest_cool_down, cool_down_list_in_all_heroes[0]
+  end
 end
