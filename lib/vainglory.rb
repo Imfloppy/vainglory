@@ -59,6 +59,46 @@ module Vainglory
       end
       status_list
     end
+
+    def ability(status_name, order = :desc)
+      ability_list = []
+      status_name_symbol = status_name.to_sym
+      self.heroes.each_value do |hero|
+        hero.ability[1..3].each do |ability|
+          next if ability[status_name_symbol].nil?
+          ability_status = ability[status_name_symbol][:effect]
+          case ability_status
+          when Array
+            ability_status.each_index do |i|
+              ability_hash = {}
+              ability_hash[:name] = ability[:name]
+              ability_hash[:level] = i + 1
+              ability_hash[status_name_symbol] = ability_status[i]
+              ability_list << ability_hash
+            end
+          else
+            ability_hash = {}
+            ability_hash[:name] = ability[:name]
+            ability_hash[status_name_symbol] = ability_status
+            ability_list << ability_hash
+          end
+        end
+      end
+
+      ability_list.sort! do |ability_a, ability_b|
+        if ability_a[status_name_symbol] == ability_b[status_name_symbol]
+          ability_a[:name] <=> ability_b[:name]
+        else
+          case order
+          when :asc
+            ability_a[status_name_symbol] <=> ability_b[status_name_symbol]
+          when :desc
+            ability_b[status_name_symbol] <=> ability_a[status_name_symbol]
+          end
+        end
+      end
+      ability_list
+    end
   end
 end
 Vainglory.init
