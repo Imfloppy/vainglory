@@ -23,10 +23,10 @@ module Vainglory
 
       heroes_ability = YAML::load_file('data/heroes_ability.yml')
       self.heroes.each do |hero_name, hero_value|
-        heroes_ability[hero_name].each do |ability_name, ability_value|
+        heroes_ability[hero_name].each do |ability_name, ability_status|
           ability = { name: ability_name.to_s }
           # パッシブアビリティがまだ未入力のためnilか確認
-          ability.merge!(ability_value) if !ability_value.nil?
+          ability.merge!(ability_status) if !ability_status.nil?
           hero_value.ability << ability
         end
       end
