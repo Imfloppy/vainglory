@@ -21,7 +21,7 @@ module Vainglory
         heroes[name] = Hero.new(name.to_s, status)
       end
 
-      heroes_ability = YAML::load_file('data/heroes_ability.yml')
+      heroes_ability = File.load_data('heroes_ability.yml')
       self.heroes.each do |hero_name, hero_value|
         heroes_ability[hero_name].each do |ability_name, ability_value|
           ability = { name: ability_name.to_s }
