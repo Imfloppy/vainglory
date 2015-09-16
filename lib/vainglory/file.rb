@@ -5,7 +5,7 @@ module Vainglory
     class << self
       def load_data(filename)
         YAML.load_file(
-          ::File.expand_path("data/#{filename}")
+          ::File.expand_path("../../../data/#{filename}", __FILE__)
         )
       end
     end
