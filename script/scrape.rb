@@ -31,7 +31,7 @@ def main
     vox: 'vox/'
   }
   heroes = Hash.new
-  hero_urls.each do |key, value| 
+  hero_urls.each do |key, value|
     hero_url = root_url + 'hero/' + value
     hero = Vainglory::ScrapeHeroFromOfficial.new(hero_url)
     heroes.merge!(hero.to_hash(:status))
