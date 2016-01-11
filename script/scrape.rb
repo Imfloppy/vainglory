@@ -13,6 +13,10 @@ require 'vainglory/scrape/scrape_hero_from_official'
 def main
   root_url = 'http://jp.vainglorygame.com/'
   hero_urls = {
+    kestrel: 'kestrel/',
+    blackfeather: 'blackfeather/',
+    phinn: 'phinn/',
+    skye: 'skye/',
     rona: 'rona/',
     fortress: 'fortress/',
     joule: 'joule/',
